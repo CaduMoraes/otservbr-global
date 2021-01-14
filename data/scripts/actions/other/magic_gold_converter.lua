@@ -31,7 +31,7 @@ local function finditem(self, cylinder, conv)
 							player:addItem(toid, 1)
 						end
 						
-						conv:setAttribute(ITEM_ATTRIBUTE_CHARGES, conv:getAttribute(ITEM_ATTRIBUTE_CHARGES) - 1)
+
 
 						return true
 					end

@@ -3,7 +3,7 @@ local UniqueTable = {
 	-- Sorcerer
 	[14025] = {
 		itemBag = 1988,
-		itemReward = {{2643, 1}, {2175, 1}, {2190, 1}, {8819, 1}, {8820, 1}, {2649, 1}},
+		itemReward = {{2643, 1}, {2175, 1}, {2190, 1}, {8819, 1}, {8820, 1}, {2649, 1}, {2152, 10}},
 		itemRewardContainer = {{7620, 5}, {18559, 1}},
 		storage = Storage.Quest.Dawnport.VocationReward,
 		value = 1
@@ -11,7 +11,7 @@ local UniqueTable = {
 	-- Druid
 	[14026] = {
 		itemBag = 1988,
-		itemReward = {{2643, 1}, {2175, 1}, {2182, 1}, {8819, 1}, {8820, 1}, {2649, 1}},
+		itemReward = {{2643, 1}, {2175, 1}, {2182, 1}, {8819, 1}, {8820, 1}, {2649, 1}, {2152, 10}},
 		itemRewardContainer = {{7620, 5}, {18559, 1}},
 		storage = Storage.Quest.Dawnport.VocationReward,
 		value = 2
@@ -19,7 +19,7 @@ local UniqueTable = {
 	-- Paladin
 	[14027] = {
 		itemBag = 1988,
-		itemReward = {{2643, 1}, {2389, 1}, {2660, 1}, {8923, 1}, {2461, 1}},
+		itemReward = {{2643, 1}, {2389, 1}, {2660, 1}, {8923, 1}, {2461, 1}, {2152, 10}, {1294, 1}, {2509, 1}, {2456, 1}},
 		itemRewardContainer = {{2544, 100}, {18559, 1}},
 		storage = Storage.Quest.Dawnport.VocationReward,
 		value = 3
@@ -27,7 +27,7 @@ local UniqueTable = {
 	-- Knight
 	[14028] = {
 		itemBag = 1988,
-		itemReward = {{2643, 1}, {2509, 1}, {8602, 1}, {2465, 1}, {2460, 1}, {2478, 1}},
+		itemReward = {{2643, 1}, {2509, 1}, {8602, 1}, {2465, 1}, {2460, 1}, {2478, 1}, {2152, 10}, {8601, 1}, {2439, 1}},
 		itemRewardContainer = {{7618, 5}, {18559, 1}},
 		storage = Storage.Quest.Dawnport.VocationReward,
 		value = 4
