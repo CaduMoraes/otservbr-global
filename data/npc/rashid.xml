@@ -308,7 +308,7 @@
 		titan axe, 7413, 4000;
 		tower shield, 2528, 8000;
 		vampire shield, 2534, 15000;
-		warrior helmet, 2475, 5000
+		warrior helmet, 2475, 5000;
 		acorn, 11213, 10;
 		alptramun's toothbrush, 34581, 270000;
 		ancient belt buckle, 27052, 260;
@@ -810,7 +810,7 @@
 		studded shield, 2526, 16;
 		swampling club, 20104, 40;
 		sword, 2376, 25;
-		throwing knife, 2410,
+		throwing knife, 2410;
 		wooden shield, 2512, 3;
 		two handed sword, 2377, 450;
 		bone shoulderplate, 11321, 150;
