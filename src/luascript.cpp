@@ -1787,7 +1787,7 @@ void LuaScriptInterface::registerFunctions()
 	registerEnum(BESTY_RACE_NONE)
 	registerEnum(BESTY_RACE_FIRST)
 	registerEnum(BESTY_RACE_AMPHIBIC)
-	registerEnum(BESTY_RACE_AQUATIC)	
+	registerEnum(BESTY_RACE_AQUATIC)
 	registerEnum(BESTY_RACE_BIRD)
 	registerEnum(BESTY_RACE_CONSTRUCT)
 	registerEnum(BESTY_RACE_DEMON)
@@ -1864,6 +1864,15 @@ void LuaScriptInterface::registerFunctions()
 	registerEnum(WEAPON_WAND)
 	registerEnum(WEAPON_AMMO)
   registerEnum(WEAPON_QUIVER)
+
+	registerEnum(AMMO_NONE)
+	registerEnum(AMMO_BOLT)
+	registerEnum(AMMO_ARROW)
+	registerEnum(AMMO_SPEAR)
+	registerEnum(AMMO_THROWINGSTAR)
+	registerEnum(AMMO_THROWINGKNIFE)
+	registerEnum(AMMO_STONE)
+	registerEnum(AMMO_SNOWBALL)
 
 	registerEnum(WORLD_TYPE_NO_PVP)
 	registerEnum(WORLD_TYPE_PVP)
@@ -2095,6 +2104,10 @@ void LuaScriptInterface::registerFunctions()
 	registerEnumIn("configKeys", ConfigManager::SERVER_SAVE_SHUTDOWN)
 
 	registerEnumIn("configKeys", ConfigManager::MAP_NAME)
+	registerEnumIn("configKeys", ConfigManager::MAP_CUSTOM_NAME)
+	registerEnumIn("configKeys", ConfigManager::MAP_CUSTOM_FILE)
+	registerEnumIn("configKeys", ConfigManager::MAP_CUSTOM_SPAWN)
+	registerEnumIn("configKeys", ConfigManager::MAP_CUSTOM_ENABLED)
 	registerEnumIn("configKeys", ConfigManager::HOUSE_RENT_PERIOD)
 	registerEnumIn("configKeys", ConfigManager::SERVER_NAME)
 	registerEnumIn("configKeys", ConfigManager::OWNER_NAME)
@@ -8914,10 +8927,10 @@ int LuaScriptInterface::luaPlayeraddCharmPoints(lua_State* L)
 		IOBestiary g_bestiary;
 		int16_t charms = getNumber<int16_t>(L, 2);
 		if (charms >= 0) {
-			g_bestiary.addCharmPoints(player, static_cast<uint16_t>(charms));			
+			g_bestiary.addCharmPoints(player, static_cast<uint16_t>(charms));
 		} else {
 			charms = -charms;
-			g_bestiary.addCharmPoints(player, static_cast<uint16_t>(charms), true);		
+			g_bestiary.addCharmPoints(player, static_cast<uint16_t>(charms), true);
 		}
 		pushBoolean(L, true);
 	} else {
@@ -9068,7 +9081,7 @@ int LuaScriptInterface::luaPlayercharmExpansion(lua_State* L)
 	Player* player = getUserdata<Player>(L, 1);
 	if (player) {
 		if (lua_gettop(L) == 1) {
-			pushBoolean(L, player->hasCharmExpansion());			
+			pushBoolean(L, player->hasCharmExpansion());
 		} else {
 			player->setCharmExpansion(getBoolean(L, 2, false));
 			pushBoolean(L, true);

@@ -20,7 +20,7 @@
 	<item id="28" name="swamp" />
 	<item id="35" name="tea" />
 	<item id="43" name="mead" />
-	
+
 	<item id="100" name="void" />
 	<item id="101" name="earth" />
 	<item id="103" name="dirt" />
@@ -49637,7 +49637,7 @@
 	<item id="37743" article="a" name="Baby Vulcongra">
 		<attribute key="wrapableTo" value="26054" />
 	</item>
-	<item id="37744" article="a" name="Baby Brain Squid">	
+	<item id="37744" article="a" name="Baby Brain Squid">
 			<attribute key="decayTo" value="37747" />
 		<attribute key="duration" value="2" />
 		<attribute key="wrapableTo" value="26054" />
@@ -49646,12 +49646,12 @@
 		<attribute key="decayTo" value="37742" />
 		<attribute key="duration" value="6" />
 		<attribute key="wrapableTo" value="26054" />
-	</item>	
-	<item id="37747" article="a" name="Baby Brain Squid">	
+	</item>
+	<item id="37747" article="a" name="Baby Brain Squid">
 			<attribute key="decayTo" value="37744" />
 		<attribute key="duration" value="2" />
 		<attribute key="wrapableTo" value="26054" />
-	</item>	
+	</item>
 	<item id="37753" article="a" name="Demon Doll">
 		<attribute key="wrapableTo" value="26054" />
 		<attribute key="weight" value="860" />
@@ -49730,7 +49730,7 @@
 	</item>
 	<item id="37796" article="a" name="cozy couch round">
 		<attribute key="rotateTo" value="37793" />
-		<attribute key="wrapableTo" value="26054" /> 
+		<attribute key="wrapableTo" value="26054" />
 	</item>
 	<item id="37797" article="a" name="cozy couch corner">
 		<attribute key="rotateTo" value="37798" />
@@ -49804,7 +49804,7 @@
 	<item id="38015" article="a" name="ramp" />
 	<item id="38016" article="a" name="ramp">
 		<attribute key="floorchange" value="south" />
-	</item>	
+	</item>
 	<item id="38017" article="a" name="cornerstone"/>
 	<item fromid="38018" toid="38032" article="a" name="wall" />
 	<item fromid="38033" toid="38037" article="a" name="buttress" />
@@ -49823,7 +49823,7 @@
 	<item id="38044" article="a" name="ramp" />
 	<item id="38045" article="a" name="ramp">
 		<attribute key="floorchange" value="south" />
-	</item>	
+	</item>
 	<item id="38046" article="a" name="cornerstone"/>
 	<item fromid="38047" toid="38061" article="a" name="wall" />
 	<item fromid="38066" toid="38062" article="a" name="buttress" />
@@ -49842,7 +49842,7 @@
 	<item id="38073" article="a" name="ramp" />
 	<item id="38074" article="a" name="ramp">
 		<attribute key="floorchange" value="south" />
-	</item>	
+	</item>
 	<item id="38075" article="a" name="cornerstone"/>
 	<item fromid="38076" toid="38084" article="a" name="wall" />
 	<item fromid="38085" toid="38089" article="a" name="buttress" />
@@ -50074,7 +50074,7 @@
 		<attribute key="decayTo" value="38643" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="38645" article="a" name="dead vibrant phantom">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50097,7 +50097,7 @@
 		<attribute key="decayTo" value="38647" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="undead" />
-	</item>		
+	</item>
 	<item id="38649" article="a" name="dead brachiodemon">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50120,7 +50120,7 @@
 		<attribute key="decayTo" value="38651" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="38653" article="a" name="dead werehyaena">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50143,7 +50143,7 @@
 		<attribute key="decayTo" value="38655" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="38657" article="a" name="dead werelion">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50189,7 +50189,7 @@
 		<attribute key="decayTo" value="38693" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="38695" article="a" name="dead goshnar's greed">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50212,7 +50212,7 @@
 		<attribute key="decayTo" value="38697" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="undead" />
-	</item>	
+	</item>
 	<item id="38699" article="a" name="dead goshnar's spite">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50329,7 +50329,7 @@
 		<attribute key="decayTo" value="38731" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="38733" article="a" name="dead infernal demon">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50352,7 +50352,7 @@
 		<attribute key="decayTo" value="38735" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="38737" article="a" name="dead turbulent elemental">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50375,7 +50375,7 @@
 		<attribute key="decayTo" value="38739" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>		
+	</item>
 	<item id="38741" article="a" name="dead courage Leech">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50398,7 +50398,7 @@
 		<attribute key="decayTo" value="38743" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="38751" article="a" name="salted cave rat">
 		<attribute key="weight" value="600" />
 	</item>
@@ -50525,7 +50525,7 @@
 		<attribute key="decayTo" value="38791" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="38793" article="a" name="dead lion archer">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50548,7 +50548,7 @@
 		<attribute key="decayTo" value="38795" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>		
+	</item>
 	<item id="38797" article="a" name="dead lion warlock">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50571,7 +50571,7 @@
 		<attribute key="decayTo" value="38799" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="38801" article="a" name="dead lion archer">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50594,7 +50594,7 @@
 		<attribute key="decayTo" value="38803" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>		
+	</item>
 	<item id="38805" article="a" name="dead lion knight">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50617,7 +50617,7 @@
 		<attribute key="decayTo" value="38807" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="38809" article="a" name="dead lion knight">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50640,7 +50640,7 @@
 		<attribute key="decayTo" value="38811" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="38813" article="a" name="dead lion archer">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
@@ -50676,7 +50676,7 @@
 	</item>
 	<item id="38850" article="a" name="lion statue" />
 	<item id="38851" article="a" name="lit torch (sparkling)" >
-		<attribute key="absorbPercentHoly" value="2" />	
+		<attribute key="absorbPercentHoly" value="2" />
 		<attribute key="loottype" value="ammo" />
 		<attribute key="slotType" value="ammo" />
 		<attribute key="weight" value="500" />
@@ -50713,7 +50713,7 @@
 	<item id="38860" article="a" name="diabolic skull" plural="diabolic skulls">
 		<attribute key="weight" value="210" />
 		<attribute key="description" value="It is made of gold and rubies." />
-	</item>	
+	</item>
 	<item id="38907" article="a" name="spectral horseshoe" plural="spectral horseshoes">
 		<attribute key="weight" value="120" />
 	</item>
@@ -50966,7 +50966,7 @@
 	<item id="38936" article="an" name="utua's poison">
 		<attribute key="showcount" value="0" />
 		<attribute key="weight" value="70" />
-	</item>	
+	</item>
 	<item id="38937" article="a" name="yirkas' egg">
 		<attribute key="showcount" value="0" />
 		<attribute key="weight" value="250" />
@@ -51039,7 +51039,7 @@
 		<attribute key="decayTo" value="38959" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="38961" article="a" name="dead hazardous phantom">
 		<attribute key="containerSize" value="24" />
 		<attribute key="decayTo" value="0" />
@@ -51063,7 +51063,7 @@
 		<attribute key="decayTo" value="38963" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="38965" article="a" name="dead mould phantom">
 		<attribute key="containerSize" value="24" />
 		<attribute key="decayTo" value="0" />
@@ -51087,7 +51087,7 @@
 		<attribute key="decayTo" value="38967" />
 		<attribute key="duration" value="10" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="38969" article="a" name="dead distorted phantom">
 		<attribute key="containerSize" value="24" />
 		<attribute key="decayTo" value="0" />
@@ -51424,7 +51424,7 @@
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="blood" />
-	</item>	
+	</item>
 	<item id="39032" article="a" name="dead yirkas blue scales">
 		<attribute key="containerSize" value="48" />
 		<attribute key="decayTo" value="39033" />
@@ -51494,11 +51494,11 @@
 		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="blood" />
 	</item>
-	<item id="39044" name="Fitzwilliam's Special Reserve">		
+	<item id="39044" name="Fitzwilliam's Special Reserve">
 		<attribute key="weight" value="100" />
 		<attribute key="description" value="A fine but practically ancient wine. It's absolutely not advised to actually drink it." />
 	</item>
-	<item id="39045" article="a" name="goromaphone(Replica)">		
+	<item id="39045" article="a" name="goromaphone(Replica)">
 		<attribute key="weight" value="6660" />
 		<attribute key="description" value="Souvenir from Thais Museum." />
 	</item>
@@ -51590,7 +51590,7 @@
 	<item id="39105" article="a" name="sleep shawl">
 		<attribute key="slotType" value="necklace" />
 		<attribute key="weight" value="430" />
-	</item>	
+	</item>
 	<item id="39612" article="a" name="dead cloak of terror">
 		<attribute key="corpseType" value="blood" />
 	</item>
@@ -51621,7 +51621,7 @@
 		<attribute key="containerSize" value="30" />
 		<attribute key="decayTo" value="39621" />
 		<attribute key="duration" value="900" />
-	</item> 
+	</item>
 	<item id="39623" article="a" name="dead branchy crawler">
 		<attribute key="containerSize" value="30" />
 		<attribute key="decayTo" value="39622" />
@@ -51665,7 +51665,7 @@
 		<attribute key="containerSize" value="30" />
 		<attribute key="decayTo" value="39698" />
 		<attribute key="duration" value="900" />
-	</item> 
+	</item>
 	<item id="39700" article="a" name="dead infernal demon">
 		<attribute key="containerSize" value="30" />
 		<attribute key="decayTo" value="39699" />
@@ -51702,6 +51702,90 @@
 	<item id="39932" article="a" name="dead werehyaena">
 		<attribute key="corpseType" value="blood" />
 	</item>
+	<item id="40193" article="a" name="dead exotic cave spider">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="40194" />
+		<attribute key="duration" value="10" />
+		<attribute key="corpseType" value="venom" />
+		<attribute key="fluidSource" value="slime" />
+	</item>
+	<item id="40194" article="a" name="dead exotic cave spider">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="40195" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+		<attribute key="fluidSource" value="slime" />
+	</item>
+	<item id="40195" article="a" name="dead exotic cave spider">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="40196" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+		<attribute key="fluidSource" value="slime" />
+	</item>
+	<item id="40196" article="a" name="dead exotic cave spider">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+		<attribute key="fluidSource" value="slime" />
+	</item>
+	<item id="40204" article="a" name="dead pirat cutthroat">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="40205" article="a" name="dead pirat cutthroat">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="40204" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="40206" article="a" name="dead pirat cutthroat">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="40205" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="40207" article="a" name="dead pirat cutthroat">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="40206" />
+		<attribute key="duration" value="10" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="40212" article="a" name="dead pirat scoundrel">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="40213" article="a" name="dead pirat scoundrel">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="40212" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="40214" article="a" name="dead pirat scoundrel">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="40213" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="40215" article="a" name="dead pirat scoundrel">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="40214" />
+		<attribute key="duration" value="10" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
 	<item id="40359" article="a" name="jungle quiver">
 		<attribute key="weight" value="1800" />
 		<attribute key="containerSize" value="8" />
@@ -51718,6 +51802,45 @@
 		<attribute key="loottype" value="potion" />
 		<attribute key="weight" value="320" />
 		<attribute key="description" value="This potion can only be consumed by druids and sorcerers of level 14 or higher." />
+	</item>
+	<item id="40407" article="a" name="pirate coin">
+		<attribute key="loottype" value="creatureproduct" />
+		<attribute key="weight" value="40" />
+	</item>
+	<item id="40408" article="a" name="pirat's tail">
+		<attribute key="loottype" value="creatureproduct" />
+		<attribute key="weight" value="190" />
+	</item>
+	<item id="40409" name="shark fins">
+		<attribute key="loottype" value="creatureproduct" />
+		<attribute key="weight" value="620" />
+	</item>
+	<item id="40522" article="a" name="dead exotic bat">
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+		<attribute key="fluidSource" value="slime" />
+	</item>
+	<item id="40523" article="a" name="dead exotic bat">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="40522" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+		<attribute key="fluidSource" value="slime" />
+	</item>
+	<item id="40524" article="a" name="dead exotic bat">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="40523" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="venom" />
+		<attribute key="fluidSource" value="slime" />
+	</item>
+	<item id="40525" article="a" name="dead exotic bat">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="40524" />
+		<attribute key="duration" value="10" />
+		<attribute key="corpseType" value="venom" />
+		<attribute key="fluidSource" value="slime" />
 	</item>
 	<item id="40683" article="a" name="blue quiver">
 		<attribute key="weight" value="1700" />
