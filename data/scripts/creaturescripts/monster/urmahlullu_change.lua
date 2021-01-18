@@ -1,6 +1,6 @@
 local UrmahlulluChanges = CreatureEvent("UrmahlulluChanges")
 local WeakenedDeath = CreatureEvent("WeakenedDeath")
-local timetochange = 60 --in seconds
+local timetochange = 180 --in seconds
 
 local config = {
     {itemId = 36248},
