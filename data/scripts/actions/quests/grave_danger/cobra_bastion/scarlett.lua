@@ -1,4 +1,4 @@
-local info = {
+ local info = {
 	bossName = "Scarlett Etzel",
 	middle = Position(33395, 32662, 6),
 	fromPos = Position(33385, 32638, 6),
