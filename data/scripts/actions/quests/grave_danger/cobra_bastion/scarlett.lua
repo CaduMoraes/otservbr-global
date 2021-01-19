@@ -1,4 +1,3 @@
-
 local info = {
 	bossName = "Scarlett Etzel",
 	middle = Position(33395, 32662, 6),
