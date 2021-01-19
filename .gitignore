@@ -376,3 +376,4 @@ sftp-config.json
 # Binaries
 otbr
 otbr.old
+client_assertions.txt

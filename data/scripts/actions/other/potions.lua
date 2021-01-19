@@ -88,7 +88,7 @@ local potions = {
 			VOCATION.CLIENT_ID.KNIGHT
 		},
 		level = 50,
-		flask = 7634,
+
 		description = "Only knights and paladins of level 50 or above may drink this fluid."
 	},
 	[7589] = {
@@ -97,7 +97,7 @@ local potions = {
 			185
 		},
 		level = 50,
-		flask = 7634,
+
 		description = "Only players of level 50 or above may drink this fluid."
 	},
 	[7590] = {
@@ -111,7 +111,7 @@ local potions = {
 			VOCATION.CLIENT_ID.PALADIN
 		},
 		level = 80,
-		flask = 7635,
+	
 		description = "Only sorcerers, druids and paladins of level 80 or above may drink this fluid."
 	},
 	[7591] = {
@@ -123,7 +123,7 @@ local potions = {
 			VOCATION.CLIENT_ID.KNIGHT
 		},
 		level = 80,
-		flask = 7635,
+	
 		description = "Only knights of level 80 or above may drink this fluid."
 	},
 	[7618] = {
@@ -131,14 +131,14 @@ local potions = {
 			125,
 			175
 		},
-		flask = 7636
+
 	},
 	[7620] = {
 		mana = {
 			75,
 			125
 		},
-		flask = 7636
+
 	},
 	[8472] = {
 		health = {
@@ -153,7 +153,7 @@ local potions = {
 			VOCATION.CLIENT_ID.PALADIN
 		},
 		level = 80,
-		flask = 7635,
+
 		description = "Only paladins of level 80 or above may drink this fluid."
 	},
 	[8473] = {
@@ -162,19 +162,19 @@ local potions = {
 			VOCATION.CLIENT_ID.KNIGHT
 		},
 		level = 130,
-		flask = 7635,
+
 		description = "Only knights of level 130 or above may drink this fluid."
 	},
 	[8474] = {
 		combat = antidote,
-		flask = 7636
+
 	},
 	[8704] = {
 		health = {
 			60,
 			90
 		},
-		flask = 7636
+
 	},
 	[26029] = {
 		mana = {
@@ -186,7 +186,7 @@ local potions = {
 			VOCATION.CLIENT_ID.DRUID
 		},
 		level = 130,
-		flask = 7635,
+
 		description = "Only druids and sorcerers of level 130 or above may drink this fluid."
 	},
 	[26030] = {
@@ -202,7 +202,7 @@ local potions = {
 			VOCATION.CLIENT_ID.PALADIN
 		},
 		level = 130,
-		flask = 7635,
+	
 		description = "Only paladins of level 130 or above may drink this fluid."
 	},
 	[26031] = {
@@ -214,7 +214,7 @@ local potions = {
 			VOCATION.CLIENT_ID.KNIGHT
 		},
 		level = 200,
-		flask = 7635,
+
 		description = "Only knights of level 200 or above may drink this fluid."
 	}
 }
