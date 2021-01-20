@@ -33,7 +33,7 @@
 	<raid name="GoEdron" file="edron/goblins.xml" interval2="500" margin="90" />
 	<raid name="Mad Mage" file="edron/mad_mage.xml" interval2="360" margin="30"/>
 	<raid name="Orcss" file="edron/orc.xml" interval2="500" margin="100" />
-	<raid name="Orshabaal" file="edron/orshabaal.xml" interval2="1440" margin="100" />
+	<raid name="Orshabaal" file="edron/orshabaal.xml" interval2="270" margin="10" />
 	<raid name="Sir Valorcrest" file="edron/sir_valorcrest.xml" interval2="1440" margin="120" />
 	<raid name="Warlock" file="edron/warlock.xml" interval2="500" margin="100" />
 	<raid name="Weakened Shlorg" file="edron/weakened_shlorg.xml" interval2="430" margin="50" />
