@@ -7,7 +7,7 @@ combat:setArea(createCombatArea(AREA_SQUAREWAVE5, AREADIAGONAL_SQUAREWAVE5))
 function onGetFormulaValues(player, level, maglevel)
 	local min = (level / 5) + (maglevel * 4.5)
 	local max = (level / 5) + (maglevel * 9)
-	return -min * 1.3, -max * 1.3
+	return -min, -max
 end
 
 combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
