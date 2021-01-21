@@ -12,7 +12,8 @@ local raids = {
 
 	--Quarta-Feira
 	['Wednesday'] = {
-		['12:00'] = {raidName = 'Draptor'}
+		['12:00'] = {raidName = 'Draptor'},
+		['21:25'] = {raidName = 'Orshabaal'},
 	},
 
 	--Quinta-Feira
