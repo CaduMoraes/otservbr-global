@@ -31,6 +31,7 @@
 	<!-- Edron -->
 	<raid name="Feroxa" file="edron/feroxa.xml" interval2="430" margin="81" />
 	<raid name="GoEdron" file="edron/goblins.xml" interval2="500" margin="90" />
+	<raid name="Horadron" file="edron/horadron.xml" interval2="500" margin="90" />
 	<raid name="Mad Mage" file="edron/mad_mage.xml" interval2="360" margin="30"/>
 	<raid name="Orcss" file="edron/orc.xml" interval2="500" margin="100" />
 	<raid name="Orshabaal" file="edron/orshabaal.xml" interval2="270" margin="10" />
