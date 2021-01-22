@@ -109,7 +109,7 @@ monster.loot = {
 	{name = "magic plate armor", chance = 6666},
 	{name = "mastermind shield", chance = 6666},
 	{name = "demon shield", chance = 25000},
-	{name = "Orshabaal's brain", chance = 6666},
+	{name = "Orshabaal's brain", chance = 100000},
 	{name = "thunder hammer", chance = 6666},
 	{name = "demon horn", chance = 50000},
 	{id = 6300, chance = 50000},
