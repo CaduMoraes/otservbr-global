@@ -97,6 +97,17 @@ monster.loot = {
 	{id = 18390, chance = 1000},
 	{id = 25377, chance = 100000},
 	{id = 25172, chance = 100000},
+	{id = 36415, chance = 650},
+	{id = 34060, chance = 650},
+	{id = 34055, chance = 650},
+	{id = 34058, chance = 650},
+	{id = 34069, chance = 650},
+	{id = 36417, chance = 550},
+	{id = 37454, chance = 550},
+	{id = 37471, chance = 450},
+	{id = 37452, chance = 450},
+	{id = 34983, chance = 450},
+	{id = 37455, chance = 350},
 	{id = 2453, chance = 200},
 	{id = 27641, chance = 200},
 	{id = 27642, chance = 200},
@@ -111,8 +122,8 @@ monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = -800, maxDamage = -1300},
 	{name ="combat", interval = 6000, chance = 13, type = COMBAT_DEATHDAMAGE, minDamage = -1200, maxDamage = -1500, length = 8, spread = 3, effect = CONST_ME_MORTAREA, target = false},
 	{name ="combat", interval = 2000, chance = 13, type = COMBAT_DEATHDAMAGE, minDamage = -400, maxDamage = -600, radius = 4, shootEffect = CONST_ANI_DEATH, effect = CONST_ME_SMALLCLOUDS, target = true},
-	{name ="tenebris summon", interval = 2000, chance = 14, target = false},
-	{name ="tenebris ultimate", interval = 2000, chance = 30, target = false}
+	{name ="tenebris summon", interval = 20000, chance = 14, target = false},
+	{name ="tenebris ultimate", interval = 20000, chance = 30, target = false}
 }
 
 monster.defenses = {
