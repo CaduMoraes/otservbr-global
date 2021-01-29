@@ -96,6 +96,7 @@ monster.loot = {
 	{name = "wand of starstorm", chance = 960},
 	{id = 22363, chance = 3700},
 	{name = "goosebump leather", chance = 16400},
+	{name = "cluster of solace", chance = 1100},
 	{name = "pool of chitinous glue", chance = 14000}
 }
 

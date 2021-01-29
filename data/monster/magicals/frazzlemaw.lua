@@ -108,7 +108,7 @@ monster.loot = {
 	{name = "brown crystal splinter", chance = 16000},
 	{name = "red crystal fragment", chance = 7600},
 	{id = 33539, chance = 10000},
-	{name = "cluster of solace", chance = 450},
+	{name = "cluster of solace", chance = 900},
 	{name = "frazzle tongue", chance = 18760},
 	{name = "frazzle skin", chance = 16000}
 }

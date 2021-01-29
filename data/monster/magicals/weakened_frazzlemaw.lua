@@ -96,7 +96,7 @@ monster.loot = {
 	{id = 7590, chance = 15000, maxCount = 3},
 	{id = 7591, chance = 15000, maxCount = 2},
 	{id = 11306, chance = 1460},
-	{id = 22396, chance = 450},
+	{id = 22396, chance = 900},
 	{id = 22532, chance = 18760},
 	{id = 22533, chance = 16000},
 	{name = "fairy wings", chance = 30100}

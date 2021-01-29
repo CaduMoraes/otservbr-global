@@ -109,7 +109,7 @@ monster.loot = {
 	{name = "great mana potion", chance = 18000, maxCount = 2},
 	{name = "ultimate health potion", chance = 20500, maxCount = 3},
 	{name = "small topaz", chance = 9300, maxCount = 5},
-	{name = "cluster of solace", chance = 550}
+	{name = "cluster of solace", chance = 1100}
 }
 
 monster.attacks = {

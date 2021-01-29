@@ -95,7 +95,7 @@ monster.loot = {
 	{name = "glorious axe", chance = 2400},
 	{name = "terra legs", chance = 960},
 	{name = "terra boots", chance = 480},
-	{name = "cluster of solace", chance = 560},
+	{name = "cluster of solace", chance = 1120},
 	{name = "silencer claws", chance = 17000},
 	{name = "silencer resonating chamber", chance = 8410}
 }

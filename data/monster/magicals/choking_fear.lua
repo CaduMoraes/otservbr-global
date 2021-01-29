@@ -101,7 +101,7 @@ monster.loot = {
 	{name = "green crystal shard", chance = 1540},
 	{name = "brown crystal splinter", chance = 52500, maxCount = 2},
 	{name = "blue crystal splinter", chance = 10000, maxCount = 3},
-	{name = "cluster of solace", chance = 620},
+	{name = "cluster of solace", chance = 1240},
 	{name = "dead weight", chance = 14180},
 	{name = "hemp rope", chance = 14180}
 }
