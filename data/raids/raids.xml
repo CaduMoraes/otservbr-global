@@ -47,9 +47,9 @@
 	<!-- Furygate -->
 	<raid name="Furyosa" file="fury_gate/furyosa.xml" interval2="440" margin="60"/>
 	<!-- Gray Island -->
-	<raid name="Jaul" file="gray_island/jaul.xml" interval2="1440" margin="120"/>
-	<raid name="Obujos" file="gray_island/obujos.xml" interval2="1440" margin="120"/>
-	<raid name="Tanjis" file="gray_island/tanjis.xml" interval2="1440" margin="120"/>
+	<raid name="Jaul" file="gray_island/jaul.xml" interval2="1440" margin="0"/>
+	<raid name="Obujos" file="gray_island/obujos.xml" interval2="1440" margin="0"/>
+	<raid name="Tanjis" file="gray_island/tanjis.xml" interval2="1440" margin="0"/>
 	<!-- Kazordoon -->
 	<raid name="GoFemor" file="kazordoon/goblins.xml" interval2="500" margin="70" />
 	<raid name="Horned Fox" file="kazordoon/horned.xml" interval2="1440" margin="180" />
