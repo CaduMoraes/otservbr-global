@@ -1,24 +1,35 @@
-local raids = {
-	[1] = 'Orhsabaal',
-	[2] = 'Morgaroth',
-	[3] = 'Ghazbaran',
-	[5] = 'Mawhawk',
-	[6] = 'Orc Backpack',
-	[7] = 'Draptor',
-	[8] = 'Necropharus',
-	[9] = 'Yeti'
-}
+local timedRaids = {
+	['Wednesday'] = {
+		{
+			name = 'Jaul',
+			execute_time = nil,
+		},
+		{
+			name = 'Obujos',
+			execute_time = nil,
+		},
+		{
+			name = 'Tanjis',
+			execute_time = nil,
+		},
+	};
+};
 
-local horadronTest = true;
 local spawnRaids = GlobalEvent("spawn raids")
 function spawnRaids.onThink(interval, lastExecution, thinkInterval)
-	selectedRaid = raids[math.random(1, 10)];
-	if selectedRaid then
-		Game.startRaid(selectedRaid)
+	local day = os.date('%A')
+
+	if timedRaids[day] then
+		for i = 1, #timedRaids[day] do
+			if not timedRaids[day][i].execute_time then
+				Game.startRaid(timedRaids[day][i].name)
+				timedRaids[day][i].execute_time = os.time();
+			end
+		end
 	end
 
 	return true
 end
 
-spawnRaids:interval(1800000000)
+spawnRaids:interval(60000)
 spawnRaids:register()
