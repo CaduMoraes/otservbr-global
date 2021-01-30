@@ -381,7 +381,7 @@ tasks =
 			{type = "exp", value = {15000}},
 			{type = "achievement", value = {"Back into the Abyss"}},
 			{type = "storage", value = {34109, 1}},
-			{type = "points", value = {3}}
+			{type = "points", value = {10}}
 		}
 	},
 	[26] = {
@@ -396,7 +396,7 @@ tasks =
 			{type = "exp", value = {20000}},
 			{type = "achievement", value = {"Choking on Her Venom"}},
 			{type = "storage", value = {34110, 1}},
-			{type = "points", value = {3}}
+			{type = "points", value = {10}}
 		}
 	},
 	[27] = {
@@ -427,7 +427,7 @@ tasks =
 			{type = "exp", value = {25000}},
 			{type = "achievement", value = {"Dream is Over"}},
 			{type = "storage", value = {34112, 1}},
-			{type = "points", value = {3}}
+			{type = "points", value = {10}}
 		}
 	},
 	[29] = {
@@ -459,7 +459,7 @@ tasks =
 			{type = "exp", value = {30000}},
 			{type = "achievement", value = {"Zzztill Zzztanding!"}},
 			{type = "storage", value = {34114, 1}},
-			{type = "points", value = {3}}
+			{type = "points", value = {10}}
 		}
 	},
 	[31] = {
@@ -508,7 +508,7 @@ tasks =
 		}
 	},
 	[34] = {
-		killsRequired = 650,
+		killsRequired = 300,
 		raceName = "Hydras",
 		level = {130, 9999},
 		premium = true,
@@ -519,11 +519,11 @@ tasks =
 			{type = "exp", value = {30000}},
 			{type = "achievement", value = {"One Less"}},
 			{type = "storage", value = {34118, 1}},
-			{type = "points", value = {3}}
+			{type = "points", value = {10}}
 		}
 	},
 	[35] = {
-		killsRequired = 800,
+		killsRequired = 400,
 		raceName = "Serpent Spawns",
 		level = {130, 9999},
 		premium = true,
@@ -534,11 +534,11 @@ tasks =
 			{type = "exp", value = {30000}},
 			{type = "achievement", value = {"Hissing Downfall"}},
 			{type = "storage", value = {34119, 1}},
-			{type = "points", value = {4}}
+			{type = "points", value = {10}}
 		}
 	},
 	[36] = {
-		killsRequired = 500,
+		killsRequired = 250,
 		raceName = "Medusas",
 		level = {130, 9999},
 		premium = true,
@@ -549,7 +549,7 @@ tasks =
 			{type = "exp", value = {40000}},
 			{type = "achievement", value = {"The Serpent's Bride"}},
 			{type = "storage", value = {34120, 1}},
-			{type = "points", value = {5}}
+			{type = "points", value = {10}}
 		}
 	},
 	[37] = {
@@ -564,7 +564,7 @@ tasks =
 			{type = "exp", value = {30000}},
 			{type = "achievement", value = {"Just Cracked Me Up!"}},
 			{type = "storage", value = {34121, 1}},
-			{type = "points", value = {4}}
+			{type = "points", value = {10}}
 		}
 	},
 	[38] = {
@@ -580,7 +580,7 @@ tasks =
 			{type = "exp", value = {30000}},
 			{type = "achievement", value = {"The Drowned Sea God"}},
 			{type = "storage", value = {34122, 1}},
-			{type = "points", value = {4}}
+			{type = "points", value = {10}}
 		}
 	},
 	[39] = {
@@ -595,7 +595,7 @@ tasks =
 			{type = "exp", value = {40000}},
 			{type = "achievement", value = {"The Gates of Hell"}},
 			{type = "storage", value = {34123, 1}},
-			{type = "points", value = {5}}
+			{type = "points", value = {10}}
 		}
 	},
 	[40] = {
@@ -610,7 +610,7 @@ tasks =
 			{type = "exp", value = {30000}},
 			{type = "achievement", value = {"Beautiful Agony"}},
 			{type = "storage", value = {34124, 1}},
-			{type = "points", value = {5}}
+			{type = "points", value = {10}}
 		}
 	},
 	[41] = {
@@ -627,7 +627,7 @@ tasks =
 			{type = "exp", value = {30000}},
 			{type = "achievement", value = {"Enter zze Draken!"}},
 			{type = "storage", value = {34125, 1}},
-			{type = "points", value = {3}}
+			{type = "points", value = {10}}
 		}
 	},
 	[42] = {
@@ -642,7 +642,7 @@ tasks =
 			{type = "exp", value = {30000}},
 			{type = "achievement", value = {"Best there was!"}},
 			{type = "storage", value = {34126, 1}},
-			{type = "points", value = {4}}
+			{type = "points", value = {10}}
 		}
 	},
 	[43] = {
@@ -657,11 +657,11 @@ tasks =
 			{type = "exp", value = {50000}},
 			{type = "achievement", value = {"Back from the Dead"}},
 			{type = "storage", value = {34127, 1}},
-			{type = "points", value = {6}}
+			{type = "points", value = {10}}
 		}
 	},
 	[44] = {
-		killsRequired = 6666,
+		killsRequired = 666,
 		raceName = "Demons",
 		level = {130, 9999}, rank = RANK_ELITEHUNTER,
 		premium = true,

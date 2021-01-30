@@ -39,7 +39,7 @@ allowClones = false
 serverName = "OTServBR-Global"
 statusTimeout = 5 * 1000
 replaceKickOnLogin = true
-maxPacketsPerSecond = 25
+maxPacketsPerSecond = 50
 maxItem = 2000
 maxContainer = 100
 
