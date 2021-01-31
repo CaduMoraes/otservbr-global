@@ -4,6 +4,6 @@
 	<look type="683" head="97" body="0" legs="96" feet="114" addons="3"/>
 	<parameters>
 		<parameter key="module_shop" value="1"/>
-		<parameter key="shop_buyable" value="arrow,2544,3;assassin star,7368,100;bolt,2543,4;bow,2456,400;crossbow,2455,500;infernal bolt,6529,300000;spear,2389,9;"/>
+		<parameter key="shop_buyable" value="arrow,2544,3;assassin star,7368,100;bolt,2543,4;bow,2456,400;crossbow,2455,500;infernal bolt,6529,50;spear,2389,9;diamond arrow,29057,80;spectral bolt,40737,80;"/>
 	</parameters>
 </npc>
