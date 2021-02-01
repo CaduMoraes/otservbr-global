@@ -129,9 +129,9 @@ showScriptsLogInConsole = false
 -- NOTE: serverSaveNotifyDuration in minutes
 serverSaveNotifyMessage = true
 serverSaveNotifyDuration = 5
-serverSaveCleanMap = false
+serverSaveCleanMap = true
 serverSaveClose = false
-serverSaveShutdown = false
+serverSaveShutdown = true
 
 -- Rates
 -- NOTE: rateExp, rateSkill and rateMagic is used as a fallback only
