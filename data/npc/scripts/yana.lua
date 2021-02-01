@@ -131,6 +131,396 @@ local products = {
 			value = 6,
 		}
 	},
+	['cloud fabric'] = {
+		['basic'] =  {
+			text = "The basic bundle for the cloud fabric imbuement consists of 20 wyvern talismans. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10561, amount = 20}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the cloud fabric imbuement consists of 20 wyvern talismans and 15 crawler head platings. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 10561, amount = 25},
+				[2] = {id = 15482, amount = 15}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the cloud fabric imbuement consists of 20 wyvern talismans, 15 crawler head platings and 10 wyrm scales. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10561, amount = 25},
+				[2] = {id = 15482, amount = 15},
+				[3] = {id = 10582, amount = 10}
+			},
+			value = 6,
+		}
+	},
+	['demon presence'] = {
+		['basic'] =  {
+			text = "The basic bundle for the demon presence imbuement consists of 25 cultish robes. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10556, amount = 25}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the demon presence imbuement consists of 25 cultish robes and 25 cultish masks. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 10556, amount = 25},
+				[2] = {id = 10555, amount = 25}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the demon presence imbuement consists of 25 cultish robes, 25 cultish masks and 20 hellspawn tails. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10556, amount = 25},
+				[2] = {id = 10555, amount = 25},
+				[3] = {id = 11221, amount = 20}
+			},
+			value = 6,
+		}
+	},
+	['lich shroud'] = {
+		['basic'] =  {
+			text = "The basic bundle for the lich shroud imbuement consists of 25 flasks of embalming fluid. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 12422, amount = 25}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the lich shroud imbuement consists of 25 flasks of embalming fluid and 20 gloom wolf furs. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 12422, amount = 25},
+				[2] = {id = 24663, amount = 20}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the lich shroud imbuement consists of 25 flasks of embalming fluid, 20 gloom wolf furs and 5 mystical hourglasses. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 12422, amount = 25},
+				[2] = {id = 24663, amount = 20},
+				[3] = {id = 10577, amount = 10}
+			},
+			value = 6,
+		}
+	},
+	['dragon hide'] = {
+		['basic'] =  {
+			text = "The basic bundle for the dragon hide imbuement consists of 20 green dragon leathers. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 5877, amount = 20}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the dragon hide imbuement consists of 20 green dragon leathers and 10 blazing bones. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 5877, amount = 20},
+				[2] = {id = 18425, amount = 10}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the dragon hide imbuement consists of 20 green dragon leathers, 10 blazing bones and 5 draken sulphurs. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 5877, amount = 20},
+				[2] = {id = 18425, amount = 10},
+				[3] = {id = 12614, amount = 5}
+			},
+			value = 6,
+		}
+	},
+	['quara scale'] = {
+		['basic'] =  {
+			text = "The basic bundle for the quara scale imbuement consists of 25 winter wolf furs. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 11212, amount = 25}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the quara scale imbuement consists of 25 winter wolf furs and 15 thick fur. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 11212, amount = 25},
+				[2] = {id = 11224, amount = 15}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the quara scale imbuement consists of 25 winter wolf furs, 15 thick fur and 10 deepling warts. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 11212, amount = 25},
+				[2] = {id = 11224, amount = 15},
+				[3] = {id = 15425, amount = 10}
+			},
+			value = 6,
+		}
+	},
+	['snake skin'] = {
+		['basic'] =  {
+			text = "The basic bundle for the snake skin imbuement consists of 25 pieces of swampling wood. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 20103, amount = 25}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the snake skin imbuement consists of 25 pieces of swampling wood and 20 snake skins. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 20103, amount = 25},
+				[2] = {id = 10611, amount = 20}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the snake skin imbuement consists of 25 pieces of swampling wood, 20 snake skins and 10 brimstone fangs. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 20103, amount = 25},
+				[2] = {id = 10611, amount = 20},
+				[3] = {id = 12658, amount = 10}
+			},
+			value = 6,
+		}
+	},
+	['electrify'] = {
+		['basic'] =  {
+			text = "The basic bundle for the electrify imbuement consists of 25 rorc feathers. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 21310, amount = 25}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the electrify imbuement consists of 25 rorc feathers and 5 peacock feather fans. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 21310, amount = 25},
+				[2] = {id = 24631, amount = 5}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the electrify imbuement consists of 25 rorc feathers, 5 peacock feather fans and 1 energy vein. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 21310, amount = 25},
+				[2] = {id = 24631, amount = 5},
+				[3] = {id = 26164, amount = 1}
+			},
+			value = 6,
+		}
+	},
+	['frost'] = {
+		['basic'] =  {
+			text = "The basic bundle for the frost imbuement consists of 25 frosty hearts. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10578, amount = 25}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the frost imbuement consists of 25 frosty hearts and 10 seacrest hairs. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 10578, amount = 25},
+				[2] = {id = 24170, amount = 10}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the frost imbuement consists of 25 frosty hearts, 10 seacrest hairs and 5 polar bear paws. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10578, amount = 25},
+				[2] = {id = 24170, amount = 10},
+				[3] = {id = 10567, amount = 5}
+			},
+			value = 6,
+		}
+	},
+	['reap'] = {
+		['basic'] =  {
+			text = "The basic bundle for the reap imbuement consists of 25 piles of grave earth. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 12440, amount = 25}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the reap imbuement consists of 25 piles of grave earth and 20 demonic skeletal hands. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 12440, amount = 25},
+				[2] = {id = 10564, amount = 20}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the reap imbuement consists of 25 piles of grave earth, 20 demonic skeletal hands and 5 petrified screams. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 12440, amount = 25},
+				[2] = {id = 10564, amount = 20},
+				[3] = {id = 11337, amount = 5}
+			},
+			value = 6,
+		}
+	},
+	['scorch'] = {
+		['basic'] =  {
+			text = "The basic bundle for the scorch imbuement consists of 25 fiery hearts. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10553, amount = 25}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the scorch imbuement consists of 25 fiery hearts and 5 green dragon scales. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 10553, amount = 25},
+				[2] = {id = 5920, amount = 5}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the scorch imbuement consists of 25 fiery hearts, 5 green dragon scales and 5 demon horns. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10553, amount = 25},
+				[2] = {id = 5920, amount = 5},
+				[3] = {id = 5954, amount = 5}
+			},
+			value = 6,
+		}
+	},
+	['venom'] = {
+		['basic'] =  {
+			text = "The basic bundle for the venom imbuement consists of 25 swamp grasses. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10603, amount = 25}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the venom imbuement consists of 25 swamp grasses and 20 poisonous slimes. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 10603, amount = 25},
+				[2] = {id = 10557, amount = 20}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the venom imbuement consists of 25 swamp grasses, 20 poisonous slimes and 2 slime hearts. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10603, amount = 25},
+				[2] = {id = 10557, amount = 20},
+				[3] = {id = 23565, amount = 2}
+			},
+			value = 6,
+		}
+	},
+	['bash'] = {
+		['basic'] =  {
+			text = "The basic bundle for the bash imbuement consists of 20 cyclops toes. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10574, amount = 20}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the bash imbuement consists of 20 cyclops toes and 15 ogre nose rings. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 10574, amount = 20},
+				[2] = {id = 24845, amount = 15}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the bash imbuement consists of 20 cyclops toes, 15 ogre nose rings and 10 warmaster's wristguards. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10574, amount = 20},
+				[2] = {id = 24845, amount = 15},
+				[3] = {id = 11322, amount = 10}
+			},
+			value = 6,
+		}
+	},
+	['blockade'] = {
+		['basic'] =  {
+			text = "The basic bundle for the blockade imbuement consists of 20 pieces of scarab shell. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10558, amount = 20}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the blockade imbuement consists of 20 pieces of scarab shell and 25 brimstone shells. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 10558, amount = 20},
+				[2] = {id = 12659, amount = 25}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the blockade imbuement consists of 20 pieces of scarab shell, 25 brimstone shells and 25 frazzle skins. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10558, amount = 20},
+				[2] = {id = 12659, amount = 25},
+				[3] = {id = 22533, amount = 25}
+			},
+			value = 6,
+		}
+	},
+	['chop'] = {
+		['basic'] =  {
+			text = "The basic bundle for the chop imbuement consists of 20 orc teeth. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 11113, amount = 20}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the chop imbuement consists of 20 orc teeth and 25 battle stones. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 11113, amount = 20},
+				[2] = {id = 12403, amount = 25}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the chop imbuement consists of 20 orc teeth, 25 battle stones and 20 moohtant horns. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 11113, amount = 20},
+				[2] = {id = 12403, amount = 25},
+				[3] = {id = 23571, amount = 20}
+			},
+			value = 6,
+		}
+	},
+	['epiphany'] = {
+		['basic'] =  {
+			text = "The basic bundle for the epiphany imbuement consists of 25 elvish talismans. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10552, amount = 25}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the epiphany imbuement consists of 25 elvish talismans and 15 broken shamanic staffs. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 10552, amount = 25},
+				[2] = {id = 12408, amount = 15}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the epiphany imbuement consists of 25 elvish talismans, 15 broken shamanic staffs and 15 strand of medusa hair. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 10552, amount = 25},
+				[2] = {id = 12408, amount = 15},
+				[3] = {id = 11226, amount = 15}
+			},
+			value = 6,
+		}
+	},
 	['precision'] = {
 		['basic'] =  {
 			text = "The basic bundle for the precision imbuement consists of 25 elven scouting glasses. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
@@ -157,54 +547,106 @@ local products = {
 			value = 6,
 		}
 	},
-	['fire'] = {
+	['slash'] = {
 		['basic'] =  {
-			text = "The basic bundle for the fire resistence imbuement consists of 20 green dragon leathers. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			text = "The basic bundle for the slash imbuement consists of 25 lion's manes. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
 			itens = {
-				[1] = {id = 12420, amount = 20}
+				[1] = {id = 23759, amount = 25}
 			},
 			value = 2,
 		},
 		['intricate'] =  {
-			text = "The intricate bundle for the fire resistence imbuement consists of 20 green dragon leathers and 10 blazing bones. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			text = "The intricate bundle for the slash imbuement consists of 25 lion's manes and 25 mooh'tah shells. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
 			itens = {
-				[1] = {id = 12420, amount = 20},
-				[2] = {id = 18425, amount = 10}
+				[1] = {id = 23759, amount = 25},
+				[2] = {id = 23573, amount = 25}
 			},
 			value = 4,
 		},
 		['powerful'] = {
-			text = "The powerful bundle for the fire resistence imbuement consists of 20 green dragon leathers, 10 blazing bones and 5 draken sulphurs. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			text = "The powerful bundle for the slash imbuement consists of 25 lion's manes, 25 mooh'tah shells and 5 war crystals. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
 			itens = {
-				[1] = {id = 12420, amount = 20},
-				[2] = {id = 18425, amount = 10},
-				[3] = {id = 12614, amount = 5}
+				[1] = {id = 23759, amount = 25},
+				[2] = {id = 23573, amount = 25},
+				[3] = {id = 10571, amount = 5}
 			},
 			value = 6,
 		}
 	},
-	['ice'] = {
+	['featherweight'] = {
 		['basic'] =  {
-			text = "The basic bundle for the ice resistence imbuement consists of 25 winter wolf furs. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			text = "The basic bundle for the featherweight imbuement consists of 20 fairy wings. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
 			itens = {
-				[1] = {id = 11212, amount = 25}
+				[1] = {id = 28999, amount = 20}
 			},
 			value = 2,
 		},
 		['intricate'] =  {
-			text = "The intricate bundle for the ice resistence imbuement consists of 25 winter wolf furs and 15 thick fur. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			text = "The intricate bundle for the featherweight imbuement consists of 20 fairy wings and 10 little bowls of myrrh. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
 			itens = {
-				[1] = {id = 11212, amount = 25},
-				[2] = {id = 11224, amount = 15}
+				[1] = {id = 28999, amount = 20},
+				[2] = {id = 29007, amount = 10}
 			},
 			value = 4,
 		},
 		['powerful'] = {
-			text = "The powerful bundle for the ice resistence imbuement consists of 25 winter wolf furs, 15 thick fur and 10 deepling warts. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			text = "The powerful bundle for the featherweight imbuement consists of 20 fairy wings, 10 little bowls of myrrh and 5 goosebump leathers. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
 			itens = {
-				[1] = {id = 11212, amount = 25},
-				[2] = {id = 11224, amount = 15},
-				[3] = {id = 15425, amount = 10}
+				[1] = {id = 28999, amount = 20},
+				[2] = {id = 29007, amount = 10},
+				[3] = {id = 22539, amount = 5}
+			},
+			value = 6,
+		}
+	},
+	['swiftness'] = {
+		['basic'] =  {
+			text = "The basic bundle for the swiftness imbuement consists of 15 damselfly wings. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 19738, amount = 15}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the swiftness imbuement consists of 15 damselfly wings and 25 compasses. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 19738, amount = 15},
+				[2] = {id = 24164, amount = 25}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the swiftness imbuement consists of 15 damselfly wings, 25 compasses and 20 waspoid wings. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 19738, amount = 15},
+				[2] = {id = 24164, amount = 25},
+				[3] = {id = 15484, amount = 20}
+			},
+			value = 6,
+		}
+	},
+	['vibrancy'] = {
+		['basic'] =  {
+			text = "The basic bundle for the vibrancy imbuement consists of 20 wereboar hooves. Would you like to buy it for 2 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 24709, amount = 20}
+			},
+			value = 2,
+		},
+		['intricate'] =  {
+			text = "The intricate bundle for the vibrancy imbuement consists of 20 wereboar hooves and 15 crystallized angers. Would you like to buy it for 4 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?.",
+			itens = {
+				[1] = {id = 24709, amount = 20},
+				[2] = {id = 26163, amount = 15}
+			},
+			value = 4,
+		},
+		['powerful'] = {
+			text = "The powerful bundle for the vibrancy imbuement consists of 20 wereboar hooves, 15 crystallized angers and 5 quills. Would you like to buy it for 6 ".. ItemType(Npc():getCurrency()):getPluralName():lower() .."?",
+			itens = {
+				[1] = {id = 24709, amount = 20},
+				[2] = {id = 26163, amount = 15},
+				[3] = {id = 33314, amount = 5}
 			},
 			value = 6,
 		}
@@ -250,7 +692,7 @@ local function creatureSayCallback(cid, type, msg)
 		openShopWindow(cid, shop, onBuy, onSell)
 		npcHandler:say("If you have any gold tokens with you, let's have a look! These are my offers.", cid)
 	elseif msgcontains(msg, "trade") then
-		npcHandler:say({"I have creature products for the imbuements {strike}, {vampirism} and {void}. Make your choice, please!"}, cid)
+		npcHandler:say({"I have creature products for the imbuements {strike}, {vampirism}, {void}, {cloud fabric}, {demon presence}, {dragon hide}, {lich shroud}, {quara scale}, {snake skin}, {electrify}, {frost}, {reap}, {scorch}, {venom}, {bash}, {blockade}, {chop}, {epiphany}, {slash}, {precision}, {featherweight}, {swiftness} and {vibrancy}. Make your choice, please!"}, cid)
 		npcHandler.topic[cid] = 1
 	elseif npcHandler.topic[cid] == 1 then
 		local imbueType = products[msg:lower()]
@@ -267,7 +709,7 @@ local function creatureSayCallback(cid, type, msg)
 			for i = 1, #products[answerType[cid]][answerLevel[cid]].itens do
 				neededCap = neededCap + ItemType(products[answerType[cid]][answerLevel[cid]].itens[i].id):getWeight() * products[answerType[cid]][answerLevel[cid]].itens[i].amount
 			end
-			npcHandler:say({imbueLevel.text.."...", 
+			npcHandler:say({imbueLevel.text.."...",
 							"Make sure that you have ".. #products[answerType[cid]][answerLevel[cid]].itens .." free slot and that you can carry ".. string.format("%.2f",neededCap/100) .." oz in addition to that."}, cid)
 			npcHandler.topic[cid] = 3
 		end
