@@ -1,5 +1,5 @@
 local timedRaids = {
-	['Saturday'] = {
+	['Wednesday'] = {
 		{
 			name = 'Jaul',
 			execute_time = nil,
