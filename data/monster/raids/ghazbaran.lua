@@ -124,8 +124,8 @@ monster.loot = {
 	{name = "mycological mace", chance = 5000},
 	{name = "ectoplasmic shield", chance = 5000},
 	{name = "energized limb", chance = 5000},
-	{name = "brain in jar", chance = 5000},
-	{name = "enchanted sleep shawl", chance = 5000},
+	{name = "brain in a jar", chance = 5000},
+	{id = 34980, chance = 5000},
 	{name = "book backpack", chance = 5000},
 	{name = "bag you desire", chance = 100}
 }

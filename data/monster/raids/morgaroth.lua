@@ -131,7 +131,7 @@ monster.loot = {
 	{name = "fabulous legs", chance = 5000},
 	{name = "ghost chestplate", chance = 5000},
 	{name = "resizer", chance = 5000},
-	{name = "bow of cataclyms", chance = 5000},
+	{id = 36416, chance = 5000},
 	{name = "galea mortis", chance = 5000},
 	{name = "shadow cowl", chance = 5000},
 	{name = "toga mortis", chance = 5000},
