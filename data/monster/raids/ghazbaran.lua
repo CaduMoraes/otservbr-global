@@ -116,7 +116,18 @@ monster.loot = {
 	{name = "spellbook of mind control", chance = 11111},
 	{name = "spellbook of lost souls", chance = 16666},
 	{name = "spellscroll of prophecies", chance = 25000},
-	{name = "spellbook of dark mysteries", chance = 20000}
+	{name = "spellbook of dark mysteries", chance = 20000},
+	{name = "summerblade", chance = 5000},
+	{name = "crystalline axe", chance = 5000},
+	{name = "phantasmal axe", chance = 5000},
+	{name = "hammer of prophecy", chance = 5000},
+	{name = "mycological mace", chance = 5000},
+	{name = "ectoplasmic shield", chance = 5000},
+	{name = "energized limb", chance = 5000},
+	{name = "brain in jar", chance = 5000},
+	{name = "enchanted sleep shawl", chance = 5000},
+	{name = "book backpack", chance = 5000},
+	{name = "bag you desire", chance = 100}
 }
 
 monster.attacks = {

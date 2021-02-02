@@ -108,7 +108,12 @@ monster.loot = {
 	{name = "rainbow necklace", chance = 160},
 	{id = 35238, chance = 160},
 	{name = "Sun Medal", chance = 160},
-	{name = "Sunray Emblem", chance = 160}
+	{name = "Sunray Emblem", chance = 160},
+	{name = "Gnome armor", chance = 3000},
+	{name = "Gnome helmet", chance = 3000},
+	{name = "Gnome legs", chance = 3000},
+	{name = "Gnome sword", chance = 3000},
+	{name = "Gnome shield", chance = 3000}
 }
 
 monster.attacks = {

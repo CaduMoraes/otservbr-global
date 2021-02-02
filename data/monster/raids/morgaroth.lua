@@ -126,8 +126,17 @@ monster.loot = {
 	{name = "mastermind shield", chance = 4500},
 	{name = "dragon robe", chance = 4500},
 	{name = "molten plate", chance = 4500},
-	{name = "great shield", chance = 500}
-}
+	{name = "great shield", chance = 500},
+	{name = "soulful legs", chance = 5000},
+	{name = "fabulous legs", chance = 5000},
+	{name = "ghost chestplate", chance = 5000},
+	{name = "resizer", chance = 5000},
+	{name = "bow of cataclyms", chance = 5000},
+	{name = "galea mortis", chance = 5000},
+	{name = "shadow cowl", chance = 5000},
+	{name = "toga mortis", chance = 5000},
+	{name = "bag you desire", chance = 100}
+	}
 
 monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -2250},
