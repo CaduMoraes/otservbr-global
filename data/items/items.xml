@@ -51013,12 +51013,8 @@
 		<attribute key="loottype" value="creatureproduct" />
 		<attribute key="showcount" value="0" />
 		<attribute key="weight" value="70" />
-	<item id="38937" article="a" name="yirkas' egg">
-	</item>	
+	</item>
 	<item id="38937" article="a" name="Yirkas' egg">
-		<attribute key="loottype" value="creatureproduct" />
-		<attribute key="showcount" value="0" />
-		<attribute key="weight" value="250" />
 	</item>
 	<item id="38938" article="a" name="Srezz' eye">
 		<attribute key="loottype" value="creatureproduct" />
