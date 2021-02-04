@@ -127,15 +127,15 @@ monster.loot = {
 	{name = "dragon robe", chance = 4500},
 	{name = "molten plate", chance = 4500},
 	{name = "great shield", chance = 500},
-	{name = "soulful legs", chance = 5000},
-	{name = "fabulous legs", chance = 5000},
-	{name = "ghost chestplate", chance = 5000},
-	{name = "resizer", chance = 5000},
-	{id = 36416, chance = 5000},
-	{name = "galea mortis", chance = 5000},
-	{name = "shadow cowl", chance = 5000},
-	{name = "toga mortis", chance = 5000},
-	{name = "bag you desire", chance = 100}
+	{name = "soulful legs", chance = 1},
+	{name = "fabulous legs", chance = 1},
+	{name = "ghost chestplate", chance = 1},
+	{name = "resizer", chance = 1},
+	{id = 36416, chance = 1},
+	{name = "galea mortis", chance = 1},
+	{name = "shadow cowl", chance = 1},
+	{name = "toga mortis", chance = 1},
+	{name = "bag you desire", chance = 1}
 	}
 
 monster.attacks = {

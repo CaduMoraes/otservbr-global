@@ -121,15 +121,15 @@ monster.loot = {
 	{name = "ultimate health potion", chance = 33333},
 	{name = "gold ingot", chance = 6666},
 	{name = "Bag you desire", chance = 100},
-	{name = "Crude umbral blade", chance = 5000},
-	{name = "Crude umbral slayer", chance = 5000},
-	{name = "Crude umbral axe", chance = 5000},
-	{name = "Crude umbral chopper", chance = 5000},
-	{name = "Crude umbral hammer", chance = 5000},
-	{name = "Crude umbral mace", chance = 5000},
-	{name = "Crude umbral bow", chance = 5000},
-	{name = "Crude umbral crossbow", chance = 5000},
-	{name = "Crude umbral spellbook", chance = 5000}
+	{name = "Crude umbral blade", chance = 1},
+	{name = "Crude umbral slayer", chance = 1},
+	{name = "Crude umbral axe", chance = 1},
+	{name = "Crude umbral chopper", chance = 1},
+	{name = "Crude umbral hammer", chance = 1},
+	{name = "Crude umbral mace", chance = 1},
+	{name = "Crude umbral bow", chance = 1},
+	{name = "Crude umbral crossbow", chance = 1},
+	{name = "Crude umbral spellbook", chance = 1}
 }
 
 monster.attacks = {
