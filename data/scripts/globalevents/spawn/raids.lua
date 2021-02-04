@@ -30,10 +30,10 @@ function spawnRaids.onThink(interval, lastExecution, thinkInterval)
 	if timedRaids[day] then
 		local i = 1;
 		for k,v in pairs(timedRaids[day]) do
-			if not k[i].execute_time and minutesSinceLastRaid >= 5 and k <= hour then
+			if not v[i].execute_time and minutesSinceLastRaid >= 5 and k <= hour then
 				minutesSinceLastRaid = 0;
-				Game.startRaid(k[i].name)
-				k[i].execute_time = os.time();
+				Game.startRaid(v[i].name)
+				v[i].execute_time = os.time();
 			end
 			i = i + 1;
 		end
