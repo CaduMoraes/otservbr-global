@@ -39,6 +39,7 @@
 #include "globalevent.h"
 #include "script.h"
 #include "weapons.h"
+#include "webhook.h"
 #include "imbuements.h"
 #include "iostash.h"
 #include "iobestiary.h"
@@ -2061,6 +2062,12 @@ void LuaScriptInterface::registerFunctions()
 	registerEnum(LIGHT_STATE_SUNSET);
 	registerEnum(LIGHT_STATE_SUNRISE);
 
+	// Webhook default colors
+	registerEnum(WEBHOOK_COLOR_ONLINE);
+	registerEnum(WEBHOOK_COLOR_OFFLINE);
+	registerEnum(WEBHOOK_COLOR_WARNING);
+	registerEnum(WEBHOOK_COLOR_RAID);
+
 	// _G
 	registerGlobalVariable("INDEX_WHEREEVER", INDEX_WHEREEVER);
 	registerGlobalBoolean("VIRTUAL_PARENT", true);
@@ -3412,6 +3419,10 @@ void LuaScriptInterface::registerFunctions()
 	registerMethod("Mount", "getId", LuaScriptInterface::luaMountGetId);
 	registerMethod("Mount", "getClientId", LuaScriptInterface::luaMountGetClientId);
 	registerMethod("Mount", "getSpeed", LuaScriptInterface::luaMountGetSpeed);
+
+	// Webhook
+	registerTable("Webhook");
+	registerMethod("Webhook", "send", LuaScriptInterface::webhookSend);
 }
 
 #undef registerEnum
@@ -19523,6 +19534,19 @@ int LuaScriptInterface::luaMountGetSpeed(lua_State* L)
   	}
 
   	return 1;
+}
+
+int LuaScriptInterface::webhookSend(lua_State* L)
+{
+	// Webhook.send(title, message, color)
+	std::string title = getString(L, 1);
+	std::string message = getString(L, 2);
+	uint32_t color = getNumber<uint32_t>(L, 3, 0);
+
+	webhook_send_message(title, message, color);
+	lua_pushnil(L);
+
+	return 1;
 }
 
 //
