@@ -4859,8 +4859,8 @@
 		<attribute key="duration" value="14400" />
 		<attribute key="healthGain" value="30" />
 		<attribute key="healthTicks" value="2000" />
-		<attribute key="manaGain" value="300" />
-		<attribute key="manaTicks" value="2000" />
+		<attribute key="manaGain" value="125" />
+		<attribute key="manaTicks" value="3000" />
 		<attribute key="showduration" value="1" />
 		<attribute key="showattributes" value="1" />
 	</item>
