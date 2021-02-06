@@ -554,10 +554,10 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler:say("To achieve the full shaman addon you need to give me a {5 banana staffs}, {5 tribal masks}, {5 dworc voodoo dolls}, {1 mandrake}. Do you have them with you?", cid)
 			npcHandler.topic[cid] = 16
 		elseif msgcontains(msg, "yes") and npcHandler.topic[cid] == 16 then
-			if player:getItemCount(5015) >= 1
-				player:getItemCount(3966) >= 5
-				player:getItemCount(3967) >= 5
-				player:getItemCount(10018) >= 5
+			if player:getItemCount(5015) >= 1 and
+				player:getItemCount(3966) >= 5 and
+				player:getItemCount(3967) >= 5 and
+				player:getItemCount(10018) >= 5 
 				then
 				player:removeItem(5015, 1)
 				player:removeItem(3966, 5)
@@ -583,9 +583,9 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler:say("To achieve the full citizen addon you need to give me a 100 minotaur leathers, 100 chicken feathers, 50 honeycombs, 1 legion helmet. Do you have them with you?", cid)
 			npcHandler.topic[cid] = 16
 		elseif msgcontains(msg, "yes") and npcHandler.topic[cid] == 16 then
-			if player:getItemCount(5878) >= 100
-				player:getItemCount(5890) >= 100
-				player:getItemCount(5902) >= 50
+			if player:getItemCount(5878) >= 100 and
+				player:getItemCount(5890) >= 100 and
+				player:getItemCount(5902) >= 50 and
 				player:getItemCount(2480) >= 1
 				then
 				player:removeItem(5878, 100)
