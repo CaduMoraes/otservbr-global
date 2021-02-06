@@ -25,7 +25,9 @@ local reward = {
 			{id = 2649, amount = 1},	-- Leather legs
 			{id = 2643, amount = 1},	-- Leather boots
 			{id = 2190, amount = 1},	-- Wand of vortex
-			{id = 2175, amount = 1}		-- Spellbook
+			{id = 2175, amount = 1},	-- Spellbook
+			{id = 2152, amount = 10},	-- Platinum Coin
+			{id = 24774, amount = 250}	-- Store Coin
 		},
 		-- Druid
 		[14026] = {
@@ -34,7 +36,9 @@ local reward = {
 			{id = 2649, amount = 1},	-- Leather legs
 			{id = 2643, amount = 1},	-- Leather boots
 			{id = 2182, amount = 1},	-- Snakebite rod
-			{id = 2175, amount = 1}		-- Spellbook
+			{id = 2175, amount = 1},	-- Spellbook
+			{id = 2152, amount = 10},	-- Platinum Coin
+			{id = 24774, amount = 250}	-- Store Coin
 		},
 		-- Paladin
 		[14027] = {
@@ -44,8 +48,11 @@ local reward = {
 			{id = 2643, amount = 1},	-- Leather boots
 			{id = 2456, amount = 1},	-- Bow
 			{id = 2389, amount = 1},	-- Spear
+			{id = 1294, amount = 1},	-- Small Stone
 			{id = 40397, amount = 1},	-- Quiver
-			{id = 2544, amount = 100}	-- Arrows
+			{id = 2544, amount = 100},	-- Arrows
+			{id = 2152, amount = 10},	-- Platinum Coin
+			{id = 24774, amount = 250}	-- Store Coin
 		},
 		-- Knight
 		[14028] = {
@@ -54,7 +61,11 @@ local reward = {
 			{id = 2478, amount = 1},	-- Brass legs
 			{id = 2643, amount = 1},	-- Leather boots
 			{id = 8602, amount = 1},	-- Jagged sword
-			{id = 2509, amount = 1}		-- Steel shield
+			{id = 8601, amount = 1},	-- Steel Axe
+			{id = 2439, amount = 1},	-- Daramian Mace
+			{id = 2509, amount = 1},	-- Steel shield
+			{id = 2152, amount = 10},	-- Platinum Coin
+			{id = 24774, amount = 250}	-- Store Coin
 		}
 	}
 }
