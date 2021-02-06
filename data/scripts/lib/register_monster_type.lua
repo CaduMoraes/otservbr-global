@@ -42,13 +42,13 @@ registerMonsterType.Bestiary = function(mtype, mask)
 			mtype:Bestiaryclass(mask.Bestiary.class)
 		end
 		if mask.Bestiary.toKill then
-			mtype:BestiarytoKill(mask.Bestiary.toKill)
+			mtype:BestiarytoKill(300)
 		end
 		if mask.Bestiary.FirstUnlock then
-			mtype:BestiaryFirstUnlock(mask.Bestiary.FirstUnlock)
+			mtype:BestiaryFirstUnlock(50)
 		end
 		if mask.Bestiary.SecondUnlock then
-			mtype:BestiarySecondUnlock(mask.Bestiary.SecondUnlock)
+			mtype:BestiarySecondUnlock(100)
 		end
 		if mask.Bestiary.CharmsPoints then
 			mtype:BestiaryCharmsPoints(mask.Bestiary.CharmsPoints)
