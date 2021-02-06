@@ -78,21 +78,21 @@ monster.voices = {
 }
 
 monster.loot = {
-	{name = "platinum coin", chance = 100000, maxCount = 5},
-	{name = "Blue Glass Plate", chance = 100000, maxCount = 3},
+	{name = "platinum coin", chance = 1000, maxCount = 5},
+	{name = "Blue Glass Plate", chance = 1000, maxCount = 3},
 	{id = 2376, chance = 15000},
 	{name = "Axe", chance = 14000},
 	{name = "Ice Rapier", chance = 12000},
-	{name = "Glorious Axe", chance = 6100},
-	{name = "Blue Robe", chance = 4600},
+	{name = "Glorious Axe", chance = 3000},
+	{name = "Blue Robe", chance = 2000},
 	{name = "Two Handed Sword", chance = 13000},
 	{name = "Fur Armor", chance = 5400},
 	{id = 7632, chance = 3200},
-	{name = "Green Crystal Shard", chance = 3100},
-	{name = "Violet Gem", chance = 4000},
-	{name = "Green Gem", chance = 4800},
-	{name = "Blue Gem", chance = 4000},
-	{name = "Focus Cape", chance = 3000}
+	{name = "Green Crystal Shard", chance = 2100},
+	{name = "Violet Gem", chance = 2000},
+	{name = "Green Gem", chance = 2100},
+	{name = "Blue Gem", chance = 2500},
+	{name = "Focus Cape", chance = 2000}
 }
 
 monster.attacks = {

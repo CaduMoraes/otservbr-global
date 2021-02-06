@@ -78,7 +78,7 @@ monster.voices = {
 }
 
 monster.loot = {
-	{name = "platinum coin", chance = 100000, maxCount = 6},
+	{name = "platinum coin", chance = 1000, maxCount = 6},
 	{name = "Morning Star", chance = 100000},
 	{name = "Terra Rod", chance = 15550},
 	{name = "Small Ruby", chance = 15000},
@@ -89,17 +89,17 @@ monster.loot = {
 	{name = "Iron Helmet", chance = 20000},
 	{name = "Serpent Sword", chance = 18000},
 	{name = "Heavy Machete", chance = 17000},
-	{name = "Terra Legs", chance = 6000},
-	{name = "Knight Legs", chance = 4500},
-	{name = "Wand of Starstorm", chance = 8000},
-	{name = "Wand of Voodoo", chance = 7100},
-	{name = "Violet Glass Plate", chance = 6200},
+	{name = "Terra Legs", chance = 3000},
+	{name = "Knight Legs", chance = 2500},
+	{name = "Wand of Starstorm", chance = 2000},
+	{name = "Wand of Voodoo", chance = 2100},
+	{name = "Violet Glass Plate", chance = 1000},
 	{name = "Small Enchanted Ruby", chance = 1400},
 	{name = "Green Crystal Fragment", chance = 1600},
-	{name = "Onyx Chip", chance = 9800},
+	{name = "Onyx Chip", chance = 2800},
 	{name = "Opal", chance = 2000},
-	{name = "Tiger Eye", chance = 3000},
-	{name = "Wand of Decay", chance = 8700}
+	{name = "Tiger Eye", chance = 2000},
+	{name = "Wand of Decay", chance = 5000}
 }
 
 monster.attacks = {
