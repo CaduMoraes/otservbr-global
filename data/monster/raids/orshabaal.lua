@@ -120,16 +120,16 @@ monster.loot = {
 	{name = "great spirit potion", chance = 4500},
 	{name = "ultimate health potion", chance = 11111},
 	{name = "gold ingot", chance = 2222},
-	{name = "Bag you desire", chance = 100},
-	{name = "Crude umbral blade", chance = 2000},
-	{name = "Crude umbral slayer", chance = 2000},
-	{name = "Crude umbral axe", chance = 2000},
-	{name = "Crude umbral chopper", chance = 2000},
-	{name = "Crude umbral hammer", chance = 2000},
-	{name = "Crude umbral mace", chance = 2000},
-	{name = "Crude umbral bow", chance = 2000},
-	{name = "Crude umbral crossbow", chance = 2000},
-	{name = "Crude umbral spellbook", chance = 2000}
+	{name = "Bag you desire", chance = 300},
+	{name = "Crude umbral blade", chance = 1000},
+	{name = "Crude umbral slayer", chance = 1000},
+	{name = "Crude umbral axe", chance = 1000},
+	{name = "Crude umbral chopper", chance = 1000},
+	{name = "Crude umbral hammer", chance = 1000},
+	{name = "Crude umbral mace", chance = 1000},
+	{name = "Crude umbral bow", chance = 1000},
+	{name = "Crude umbral crossbow", chance = 1000},
+	{name = "Crude umbral spellbook", chance = 1000}
 }
 
 monster.attacks = {

@@ -318,7 +318,9 @@ local questTable = {
 [317] = {storageId = Storage.AdventurersGuild.GreatDragonHunt.WarriorSkeleton, storageValue = 1},
 [318] = {storageId = Storage.AdventurersGuild.GreatDragonHunt.WarriorSkeleton, storageValue = 2},
 [319] = {storageId = Storage.Quest.Dawnport.Questline, storageValue = 1},
-[320] = {storageId = Storage.Quest.Dawnport.GoMain, storageValue = 1}
+[320] = {storageId = Storage.Quest.Dawnport.GoMain, storageValue = 1},
+[321] = {storageId = Storage.PitsOfInferno.ShortcutLeverDoor, storageValue = 1},
+[322] = {storageId = Storage.PitsOfInferno.ShortcutHubDoor, storageValue = 1}
 }
 
 local upperLimit = 1 -- change upperLimit to a higher one after adding a new quest to questTable
