@@ -181,7 +181,7 @@ tasks =
 		},
 		rewards = {
 			{type = "exp", value = {1000}},
-			{type = "points", value = {2}}
+			{type = "points", value = {10}}
 		}
 	},
 	[12] = {
@@ -320,7 +320,7 @@ tasks =
 		},
 		rewards = {
 			{type = "exp", value = {10000}},
-			{type = "points", value = {2}}
+			{type = "points", value = {10}}
 		}
 	},
 	[22] = {
@@ -335,7 +335,7 @@ tasks =
 			{type = "exp", value = {12000}},
 			{type = "achievement", value = {"Spareribs for Dinner"}},
 			{type = "storage", value = {34107, 1}},
-			{type = "points", value = {2}}
+			{type = "points", value = {10}}
 		}
 	},
 	[23] = {
@@ -349,7 +349,7 @@ tasks =
 			{type = "exp", value = {15000}},
 			{type = "achievement", value = {"Arachnoise"}},
 			{type = "storage", value = {34108, 1}},
-			{type = "points", value = {3}}
+			{type = "points", value = {10}}
 		}
 	},
 	[24] = {
@@ -362,7 +362,7 @@ tasks =
 		},
 		rewards = {
 			{type = "exp", value = {12000}},
-			{type = "points", value = {2}}
+			{type = "points", value = {10}}
 		}
 	},
 	[25] = {
@@ -431,7 +431,7 @@ tasks =
 		}
 	},
 	[29] = {
-		killsRequired = 600,
+		killsRequired = 300,
 		raceName = "Hellspawns",
 		level = {80, 999},
 		premium = true,
@@ -445,7 +445,7 @@ tasks =
 		}
 	},
 	[30] = {
-		killsRequired = 800,
+		killsRequired = 400,
 		raceName = "High Class Lizards",
 		level = {80, 999},
 		premium = true,
@@ -463,7 +463,7 @@ tasks =
 		}
 	},
 	[31] = {
-		killsRequired = 600,
+		killsRequired = 300,
 		raceName = "Stampors",
 		level = {80, 999},
 		premium = true,
@@ -553,7 +553,7 @@ tasks =
 		}
 	},
 	[37] = {
-		killsRequired = 700,
+		killsRequired = 300,
 		raceName = "Behemoths",
 		level = {130, 9999},
 		premium = true,
@@ -568,7 +568,7 @@ tasks =
 		}
 	},
 	[38] = {
-		killsRequired = 900,
+		killsRequired = 450,
 		raceName = "Sea Serpents and Young Sea Serpents",
 		level = {130, 9999},
 		premium = true,
@@ -599,7 +599,7 @@ tasks =
 		}
 	},
 	[40] = {
-		killsRequired = 500,
+		killsRequired = 250,
 		raceName = "Ghastly Dragons",
 		level = {130, 9999},
 		premium = true,
@@ -614,7 +614,7 @@ tasks =
 		}
 	},
 	[41] = {
-		killsRequired = 900,
+		killsRequired = 450,
 		raceName = "Drakens",
 		level = {130, 9999},
 		premium = true,
@@ -704,7 +704,7 @@ tasks =
 		}
 	},
 	[47] = {
-		killsRequired = 3000,
+		killsRequired = 300,
 		raceName = "Pirates",
 		level = {1, 9999}, storage = {65047, 1},
 		premium = true,
@@ -723,7 +723,7 @@ tasks =
 		}
 	},
 	[48] = {
-		killsRequired = 3000,
+		killsRequired = 300,
 		raceName = "Pirates second task",
 		level = {1, 9999}, storage = {REPEATSTORAGE_BASE + 47, 3}, norepeatable = true,
 		premium = true,
@@ -742,7 +742,7 @@ tasks =
 		}
 	},
 	[49] = {
-		killsRequired = 5000,
+		killsRequired = 500,
 		raceName = "Minotaurs",
 		level = {1, 9999}, storage = {12700, 1}, norepeatable = true,
 		premium = false,
@@ -756,7 +756,7 @@ tasks =
 		}
 	},
 	[50] = {
-		killsRequired = 4000,
+		killsRequired = 400,
 		raceName = "Necromancers and Priestess",
 		level = {60, 9999}, norepeatable = true,
 		premium = true,

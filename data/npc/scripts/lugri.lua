@@ -56,16 +56,16 @@ local function creatureSayCallback(cid, type, msg)
 			}, cid)
 			npcHandler.topic[cid] = 7
 		elseif player:getStorageValue(Storage.KillingInTheNameOf.LugriNecromancers) == 1 then
-			if player:getStorageValue(Storage.KillingInTheNameOf.LugriNecromancerCount) >= 4000 then
+			if player:getStorageValue(Storage.KillingInTheNameOf.LugriNecromancerCount) >= 400 then
 				npcHandler:say({
-					"You've slain a mere {4000 necromancers and priestesses}. Still, you've shown some dedication. Maybe that means you can kill one of those so-called 'leaders' too. ...",
+					"You've slain a mere {400 necromancers and priestesses}. Still, you've shown some dedication. Maybe that means you can kill one of those so-called 'leaders' too. ...",
 					"Deep under Drefia, a necromancer called Necropharus is hiding in the Halls of Sacrifice. I'll place a spell on you with which you will be able to pass his weak protective gate. ...",
 					"Know that this will be your only chance to enter his room. If you leave it or die, you won't be able to return. We'll see if you really dare enter those halls."
 				}, cid)
 				player:setStorageValue(17521, 1)
 				player:setStorageValue(Storage.KillingInTheNameOf.LugriNecromancers, 2)
 			else
-				npcHandler:say("Come back when you have slain {4000 necromancers and priestesses!}", cid)
+				npcHandler:say("Come back when you have slain {400 necromancers and priestesses!}", cid)
 			end
 		elseif player:getStorageValue(Storage.KillingInTheNameOf.LugriNecromancers) == 2 then
 			npcHandler:say({

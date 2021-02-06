@@ -63,18 +63,18 @@ local function creatureSayCallback(cid, type, msg)
 		if player:getStorageValue(Storage.KillingInTheNameOf.BudrikMinos) <= 0 then
 			npcHandler:say({
 				"I am so angry I could spit grit! That damn Horned Fox and his attacks! Let's show those bull-heads that they have messed with the wrong people....",
-				"I want you to kill {5000 minotaurs} - no matter where - for me and all the dwarfs of Kazordoon! Are you willing to do that?"
+				"I want you to kill {500 minotaurs} - no matter where - for me and all the dwarfs of Kazordoon! Are you willing to do that?"
 			}, cid)
 			npcHandler.topic[cid] = 2
 		elseif player:getStorageValue(Storage.KillingInTheNameOf.BudrikMinos) == 1 then
-			if player:getStorageValue(Storage.KillingInTheNameOf.BudrikMinosCount) >= 5000 then
+			if player:getStorageValue(Storage.KillingInTheNameOf.BudrikMinosCount) >= 500 then
 				npcHandler:say({
 					"By all that is holy! You are a truly great warrior! With much patience! I have just found out the location the hideout of {The Horned Fox}! I have marked the spot on your map so you can find it. Go there and slay him!! Good luck!"
 				}, cid)
 				player:setStorageValue(17522, 1)
 				player:setStorageValue(Storage.KillingInTheNameOf.BudrikMinos, 2)
 			else
-				npcHandler:say("Come back when you have slain {5000 minotaurs!}", cid)
+				npcHandler:say("Come back when you have slain {500 minotaurs!}", cid)
 			end
 		elseif player:getStorageValue(Storage.KillingInTheNameOf.BudrikMinos) == 2 then
 			npcHandler:say({
