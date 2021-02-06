@@ -30,14 +30,14 @@ beggar = 89062
 shaman = 89063     
 norseman = 89064     
 nightmare = 89065 
+jester = 89066   
 brotherhood = 89067    
-jester = 89066    
 elementalist = 89068
 deepling = 89069
 insectoid = 89070
+citzen = 89071
 festive = 89072
 golden = 89073
-
 mage_female = 89075
 summoner_male = 89076
 
@@ -61,10 +61,11 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler:say(already, cid)
 			return true
 		end
-			npcHandler:say("To achieve the full hunter addon you need to give me {1 sniper gloves, 100 lizard leathers, 100 red dragon leathers, 5 enchanted chicken wings, 1 piece of royal steel, 1 piece of draconian steel and 1 piece of hell stell}. Do you have them with you?", cid)
+			npcHandler:say("To achieve the full hunter addon you need to give me {1 elane's crossbow, 1 sniper gloves, 100 lizard leathers, 100 red dragon leathers, 5 enchanted chicken wings, 1 piece of royal steel, 1 piece of draconian steel and 1 piece of hell stell}. Do you have them with you?", cid)
 			npcHandler.topic[cid] = 1
 		elseif msgcontains(msg, "yes") and npcHandler.topic[cid] == 1 then
-			if player:getItemCount(5875) >= 1 and 
+			if player:getItemCount(5875) >= 1 and
+				player:getItemCount(5947) >= 1 and
 				player:getItemCount(5889) >= 1 and
 				player:getItemCount(5887) >= 1 and 
 				player:getItemCount(5888) >= 1 and  
@@ -73,6 +74,7 @@ local function creatureSayCallback(cid, type, msg)
 				player:getItemCount(5876) >= 100 
 				then			
 				player:removeItem(5875, 1)
+				player:removeItem(5947, 1)
 				player:removeItem(5889, 1)
 				player:removeItem(5887, 1)
 				player:removeItem(5888, 1)
@@ -98,7 +100,7 @@ local function creatureSayCallback(cid, type, msg)
 						npcHandler:say(already, cid)
 					return true
 				end	
-				npcHandler:say("To achieve the full mage addon you need to give me {1 winning lottery ticket, 20 red piece of cloth, 100 spider silks, 60 lizard scales, 40 red dragon leather, 15 magic sulphur and 30 vampire dust}. Do you have them with you?", cid)
+				npcHandler:say("To achieve the full mage addon you need to give me {1 winning lottery ticket, 70 bat wings, 20 red piece of cloth, 100 spider silks, 60 lizard scales, 40 red dragon leather, 15 magic sulphur and 30 vampire dust}. Do you have them with you?", cid)
 				npcHandler.topic[cid] = 2
 			elseif msgcontains(msg, "yes") and npcHandler.topic[cid] == 2 then
 				if player:getItemCount(5958) >= 1 and 
@@ -220,11 +222,13 @@ local function creatureSayCallback(cid, type, msg)
 						npcHandler:say(already, cid)
 					return true
 				end	
-				npcHandler:say("To achieve the full summoner addon you need to give me {1 winning lottery ticket, 20 red piece of cloth, 100 spider silks, 60 lizard scales, 40 red dragon leather, 15 magic sulphur and 30 vampire dust}. Do you have them with you?", cid)
+				npcHandler:say("To achieve the full summoner addon you need to give me {1 winning lottery ticket, 20 red piece of cloth, 40 ape fur, 35 holy orchids, 100 spider silks, 60 lizard scales, 40 red dragon leather, 15 magic sulphur and 30 vampire dust}. Do you have them with you?", cid)
 				npcHandler.topic[cid] = 6
 			elseif msgcontains(msg, "yes") and npcHandler.topic[cid] == 6 then
 				if player:getItemCount(5958) >= 1 and 
 					player:getItemCount(5894) >= 70 and
+					player:getItemCount(5883) >= 40 and
+					player:getItemCount(5922) >= 35 and
 					player:getItemCount(5911) >= 20 and
 					player:getItemCount(5879) >= 100 and
 					player:getItemCount(5881) >= 60 and
@@ -287,16 +291,18 @@ local function creatureSayCallback(cid, type, msg)
 						npcHandler:say(already, cid)
 					return true
 				end	
-			npcHandler:say("To achieve the full warrior addon you need to give me {a dragon claw, spirit container, 100 iron ore, 100 hardened bone and 1 piece of royal steel}. Do you have them with you?", cid)
+			npcHandler:say("To achieve the full warrior addon you need to give me {a dragon claw, spirit container, 100 iron ore, 100 turtle shells, 100 hardened bone and 1 piece of royal steel}. Do you have them with you?", cid)
 			npcHandler.topic[cid] = 8
 		elseif msgcontains(msg, "yes") and npcHandler.topic[cid] == 8 then
 			if player:getItemCount(5880) >= 100 and 
+				player:getItemCount(5899) >= 100 and
 				player:getItemCount(5925) >= 100 and
 				player:getItemCount(5887) >= 1 and 
 				player:getItemCount(5919) >= 1 and  
 				player:getItemCount(5884) >= 1
 				then
 				player:removeItem(5880, 100)
+				player:removeItem(5899, 100)
 				player:removeItem(5925, 100)
 				player:removeItem(5887, 1)
 				player:removeItem(5919, 1)
@@ -318,7 +324,7 @@ local function creatureSayCallback(cid, type, msg)
 						npcHandler:say(already, cid)
 					return true
 				end	
-			npcHandler:say("To achieve the full barbarian addon you need to give me {100 iron ore, 50 perfect behemoth fang, 50 lizard leather, 50 pieces of red cloth, 50 pieces of green cloth, 100 spider silks, 1 flask of warrior sweat, i spirit container and 1 huge chunk of crude iron}. Do you have them with you?", cid)
+			npcHandler:say("To achieve the full barbarian addon you need to give me {100 iron ore, 50 perfect behemoth fang, 50 lizard leather, 50 pieces of red cloth, 50 pieces of green cloth, 100 spider silks, 1 flask of warrior sweat, 1 spirit container and 1 huge chunk of crude iron}. Do you have them with you?", cid)
 			npcHandler.topic[cid] = 9
 		elseif msgcontains(msg, "yes") and npcHandler.topic[cid] == 9 then
 			if player:getItemCount(5880) >= 100 and 
@@ -415,18 +421,20 @@ local function creatureSayCallback(cid, type, msg)
 						npcHandler:say(already, cid)
 					return true
 				end	
-			npcHandler:say("To achieve the full oriental addon you need to give me {100 fish fins, 100 pieces of yellow cloth, 100 pieces of blue cloth and 5 enchanted chicken wings}. Do you have them with you?", cid)
+			npcHandler:say("To achieve the full oriental addon you need to give me {100 ape fur, 100 fish fins, 1 mermaid comb, 100 pieces of blue cloth and 2 enchanted chicken wings}. Do you have them with you?", cid)
 			npcHandler.topic[cid] = 12
 		elseif msgcontains(msg, "yes") and npcHandler.topic[cid] == 12 then
 			if player:getItemCount(5895) >= 100 and 
-				player:getItemCount(5891) >= 5 and
+				player:getItemCount(5945) >= 1 and
+				player:getItemCount(5891) >= 2 and
 				player:getItemCount(5912) >= 100 and
-				player:getItemCount(5914) >= 100
+				player:getItemCount(5883) >= 100
 				then
 				player:removeItem(5895, 100)
-				player:removeItem(5891, 5)
+				player:removeItem(5945, 1)
+				player:removeItem(5891, 2)
 				player:removeItem(5912, 100)
-				player:removeItem(5914, 100)
+				player:removeItem(5883, 100)
 				player:getPosition():sendMagicEffect(171)
 				player:addOutfitAddon(150, 3)
 				player:addOutfitAddon(146, 3)
@@ -543,12 +551,18 @@ local function creatureSayCallback(cid, type, msg)
 						npcHandler:say(already, cid)
 					return true
 				end	
-			npcHandler:say("To achieve the full shaman addon you need to give me a {5 mandrake}. Do you have them with you?", cid)
+			npcHandler:say("To achieve the full shaman addon you need to give me a {5 banana staffs}, {5 tribal masks}, {5 dworc voodoo dolls}, {1 mandrake}. Do you have them with you?", cid)
 			npcHandler.topic[cid] = 16
 		elseif msgcontains(msg, "yes") and npcHandler.topic[cid] == 16 then
-			if player:getItemCount(5015) >= 5 
+			if player:getItemCount(5015) >= 1
+				player:getItemCount(3966) >= 5
+				player:getItemCount(3967) >= 5
+				player:getItemCount(10018) >= 5
 				then
-				player:removeItem(5015, 5)
+				player:removeItem(5015, 1)
+				player:removeItem(3966, 5)
+				player:removeItem(3967, 5)
+				player:removeItem(10018, 5)
 				player:getPosition():sendMagicEffect(171)
 				player:addOutfitAddon(154, 3)
 				player:addOutfitAddon(158, 3)
@@ -560,18 +574,47 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler.topic[cid] = 0
 		end
 	-- shaman end
+	--citizen
+		if msgcontains(msg, "citizen") then
+		if player:getStorageValue(citizen) == 1 then
+						npcHandler:say(already, cid)
+					return true
+				end	
+			npcHandler:say("To achieve the full citizen addon you need to give me a 100 minotaur leathers, 100 chicken feathers, 50 honeycombs, 1 legion helmet. Do you have them with you?", cid)
+			npcHandler.topic[cid] = 16
+		elseif msgcontains(msg, "yes") and npcHandler.topic[cid] == 16 then
+			if player:getItemCount(5878) >= 100
+				player:getItemCount(5890) >= 100
+				player:getItemCount(5902) >= 50
+				player:getItemCount(2480) >= 1
+				then
+				player:removeItem(5878, 100)
+				player:removeItem(5890, 100)
+				player:removeItem(5902, 50)
+				player:removeItem(2480, 1)
+				player:getPosition():sendMagicEffect(171)
+				player:addOutfitAddon(136, 1)
+				player:addOutfitAddon(128, 1)
+				player:setStorageValue(citizen, 1)
+				npcHandler:say(newaddon, cid)
+			else
+				npcHandler:say(noitems, cid)
+			end
+			npcHandler.topic[cid] = 0
+		end
+	-- citizen end
 	--norseman
 		if msgcontains(msg, "norseman") then
 		if player:getStorageValue(norseman) == 1 then
 						npcHandler:say(already, cid)
 					return true
 				end	
-			npcHandler:say("To achieve the full norseman addon you need to give me a {50 shards}. Do you have them with you?", cid)
+			npcHandler:say("To achieve the full norseman addon you need to give me a {15 shards}. Do you have them with you?", cid)
 			npcHandler.topic[cid] = 17
 		elseif msgcontains(msg, "yes") and npcHandler.topic[cid] == 17 then
-			if player:getItemCount(7290) >= 50
+			if player:getItemCount(7290) >= 15
 				then
-				player:removeItem(7290, 50)
+				player:removeItem(7290, 15)
 				player:getPosition():sendMagicEffect(171)
 				player:addOutfitAddon(252, 3)
 				player:addOutfitAddon(251, 3)
