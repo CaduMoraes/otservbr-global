@@ -4287,7 +4287,7 @@ local weapons = {
 	{
 		itemId = 1294,
 		type = WEAPON_DISTANCE,
-		breakChance = 3
+		breakChance = 0
 	} -- small stone
 }
 
