@@ -88,7 +88,7 @@ monster.loot = {
 	{name = "lizard scale", chance = 980, maxCount = 3},
 	{name = "great health potion", chance = 5350, maxCount = 3},
 	{name = "Zaoan armor", chance = 980},
-	{name = "Zaoan helmet", chance = 140},
+	{name = "Zaoan helmet", chance = 340},
 	{name = "Zaoan shoes", chance = 810},
 	{name = "Zaoan legs", chance = 940},
 	{name = "spiked iron ball", chance = 9890},
