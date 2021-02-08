@@ -104,7 +104,7 @@ monster.loot = {
 	{name = "assassin star", chance = 4500, maxCount = 35},
 	{name = "demonbone", chance = 1000},
 	{name = "golden mug", chance = 4500},
-	{name = "Morgaroth's heart", chance = 4500},
+	{name = "Morgaroth's heart", chance = 4500, unique = true},
 	{name = "obsidian truncheon", chance = 1000},
 	{name = "stomper", chance = 1000},
 	{name = "blue gem", chance = 3000},
