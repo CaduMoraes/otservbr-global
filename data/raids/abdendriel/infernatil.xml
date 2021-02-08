@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<!--Announcements-->
+	<announce delay="1000" type="Event" message="Hoje é sabado!" />
+	<announce delay="5000" type="Event" message="Sabe aquela cidade que ninguém vai? Não é Kazordoon" />
+	<announce delay="10000" type="Event" message="Isso mesmo. Ab'Dendriel. É lá que vai ter uma surpresa" />
+	<!--Single Spawns-->
+	<singlespawn delay="20000" name="Infernatil" x="32608" y="31722" z="7" />
+</raid>

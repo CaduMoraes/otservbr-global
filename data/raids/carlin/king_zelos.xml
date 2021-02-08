@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<!--Announcements-->
+	<announce delay="1000" type="Event" message="Apenas uma hipótese" />
+	<announce delay="5000" type="Event" message="Nada sério, só uma hipótese mesmo" />
+	<announce delay="10000" type="Event" message="Imagina se o King Zelos nascesse naquele monastério perto de Ghostlands?" />
+	<!--Single Spawns-->
+	<singlespawn delay="20000" name="King Zelos" x="32174" y="31928" z="7" />
+</raid>

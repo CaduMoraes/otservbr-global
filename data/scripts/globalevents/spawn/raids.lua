@@ -12,7 +12,7 @@ local raids = {
 			name = 'Apocalypse',
 			already_executed = false,
 			raid_hour = 22,
-			chance = 0,						-- TODO: Needs change after the raid is implemented
+			chance = 6,
 		},
 	},
 	['Wednesday'] = {
@@ -44,7 +44,7 @@ local raids = {
 			name = 'King Zelos',
 			already_executed = false,
 			raid_hour = 22,
-			chance = 0,						-- TODO: Needs change after the raid is implemented
+			chance = 4,
 		},
 	},
 	['Thursday'] = {
@@ -60,7 +60,7 @@ local raids = {
 			name = 'Verminor',
 			already_executed = false,
 			raid_hour = 22,
-			chance = 0,						-- TODO: Needs change after the raid is implemented
+			chance = 4,
 		},
 		{
 			name = 'Ghazbaran',
@@ -74,7 +74,7 @@ local raids = {
 			name = 'Infernatil',
 			already_executed = false,
 			raid_hour = 22,
-			chance = 0,						-- TODO: Needs change after the raid is implemented
+			chance = 4,
 		},
 	},
 	['Sunday'] = {
@@ -82,7 +82,7 @@ local raids = {
 			name = 'Zoralurk',
 			already_executed = false,
 			raid_hour = 22,
-			chance = 0,						-- TODO: Needs change after the raid is implemented
+			chance = 5,
 		},
 	},
 };

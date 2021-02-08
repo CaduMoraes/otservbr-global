@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<!--Announcements-->
+	<announce delay="1000" type="Event" message="Nesse domingo legal" />
+	<announce delay="5000" type="Event" message="Peço a atenção de todos para aquela cidade que metade não sabe soletrar." />
+	<announce delay="10000" type="Event" message="Venham para os poços de piche em ANCKRAMUHN!" />
+	<!--Single Spawns-->
+	<singlespawn delay="20000" name="Zoralurk" x="33233" y="32708" z="7" />
+</raid>

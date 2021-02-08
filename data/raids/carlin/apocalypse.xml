@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<!--Announcements-->
+	<announce delay="1000" type="Event" message="Se alguém tiver de bobeira" />
+	<announce delay="5000" type="Event" message="Acho que seria uma boa ir pro norte de Carlin." />
+	<announce delay="10000" type="Event" message="É O ACOPALYPSES!" />
+	<!--Single Spawns-->
+	<singlespawn delay="20000" name="Apocalypse" x="32369" y="31687" z="7" />
+</raid>

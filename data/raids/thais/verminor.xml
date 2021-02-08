@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<!--Announcements-->
+	<announce delay="1000" type="Event" message="Então..." />
+	<announce delay="5000" type="Event" message="Sabe como é..." />
+	<announce delay="10000" type="Event" message="Vai nascer um bagulho nos arredores de Thais." />
+	<!--Single Spawns-->
+	<singlespawn delay="20000" name="Verminor" x="32341" y="32162" z="7" />
+</raid>
