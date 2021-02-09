@@ -288,15 +288,19 @@ local questTable = {
 [312] = {storageId = Storage.DangerousDepths.Gnomes.Charting, storageValue = 2},
 [313] = {storageId = Storage.DangerousDepths.Scouts.Growth, storageValue = 2},
 [314] = {storageId = Storage.DangerousDepths.Scouts.Diremaw, storageValue = 2},
-[315] = {storageId = Storage.ThreatenedDreams.Start, storageValue = 1},
-[316] = {storageId = Storage.ThreatenedDreams.TroubledMission01, storageValue = 4},
+[321] = {storageId = Storage.ThreatenedDreams.Start, storageValue = 1},
+[322] = {storageId = Storage.ThreatenedDreams.TroubledMission01, storageValue = 17},
+[323] = {storageId = Storage.ThreatenedDreams.TroubledMission02, storageValue = 1},
 [317] = {storageId = Storage.AdventurersGuild.GreatDragonHunt.WarriorSkeleton, storageValue = 1},
 [318] = {storageId = Storage.AdventurersGuild.GreatDragonHunt.WarriorSkeleton, storageValue = 2},
 [319] = {storageId = Storage.Quest.Dawnport.Questline, storageValue = 1},
 [320] = {storageId = Storage.Quest.Dawnport.GoMain, storageValue = 1},
-[321] = {storageId = Storage.ThreatenedDreams.Start, storageValue = 1},
-[322] = {storageId = Storage.ThreatenedDreams.TroubledMission01, storageValue = 17},
-[323] = {storageId = Storage.ThreatenedDreams.TroubledMission02, storageValue = 1},
+[321] = {storageId = Storage.ForgottenKnowledge.AccessDeath, storageValue = 1},
+[322] = {storageId = Storage.ForgottenKnowledge.AccessViolet, storageValue = 1},
+[323] = {storageId = Storage.ForgottenKnowledge.AccessEarth, storageValue = 1},
+[324] = {storageId = Storage.ForgottenKnowledge.AccessFire, storageValue = 1},
+[325] = {storageId = Storage.ForgottenKnowledge.AccessIce, storageValue = 1},
+[326] = {storageId = Storage.ForgottenKnowledge.AccessGolden, storageValue = 1}
 }
 
 local upperLimit = 1 -- change upperLimit to a higher one after adding a new quest to questTable
