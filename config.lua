@@ -27,7 +27,7 @@ cleanProtectionZones = false
 -- Connection Config
 -- NOTE: maxPlayers set to 0 means no limit
 -- NOTE: MaxPacketsPerSeconds if you change you will be subject to bugs by WPE, keep the default value of 25
-ip = "25.11.196.131"
+ip = "192.168.191.99"
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171
 gameProtocolPort = 7172
@@ -62,6 +62,7 @@ onlyPremiumAccount = false
 weatherRain = false
 thunderEffect = false
 freeQuests = true
+allConsoleLog = false
 
 -- Deaths
 -- NOTE: Leave deathLosePercent as -1 if you want to use the default
@@ -106,8 +107,8 @@ maxMarketOffersAtATimePerPlayer = 100
 
 -- MySQL
 mysqlHost = "127.0.0.1"
-mysqlUser = "root"
-mysqlPass = ""
+mysqlUser = "admin"
+mysqlPass = "capela123"
 mysqlDatabase = "capelosos"
 mysqlPort = 3306
 mysqlSock = ""

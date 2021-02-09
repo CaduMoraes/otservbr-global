@@ -3,7 +3,7 @@ local raids = {
 		{
 			name = 'Morgaroth', 		-- Name of the raid (according to raids.xml)
 			already_executed = false, 	-- Boolean that indicates if the raid already happened. To prevent duplicate raids
-			raid_hour = 22, 			-- The hour when the raid will spawn
+			raid_hour = '22', 			-- The hour when the raid will spawn
 			chance = 7,					-- Percentage of chance for the raid to happen
 		},
 	},
@@ -11,7 +11,7 @@ local raids = {
 		{
 			name = 'Apocalypse',
 			already_executed = false,
-			raid_hour = 22,
+			raid_hour = '22',
 			chance = 6,
 		},
 	},
@@ -19,31 +19,31 @@ local raids = {
 		{
 			name = 'Jaul',
 			already_executed = false,
-			raid_hour = 19,
+			raid_hour = '19',
 			chance = 100,
 		},
 		{
 			name = 'Obujos',
 			already_executed = false,
-			raid_hour = 19,
+			raid_hour = '19',
 			chance = 100,
 		},
 		{
 			name = 'Tanjis',
 			already_executed = false,
-			raid_hour = 19,
+			raid_hour = '19',
 			chance = 100,
 		},
 		{
 			name = 'Orhsabaal',
 			already_executed = false,
-			raid_hour = 22,
+			raid_hour = '22',
 			chance = 8,
 		},
 		{
 			name = 'King Zelos',
 			already_executed = false,
-			raid_hour = 22,
+			raid_hour = '22',
 			chance = 4,
 		},
 	},
@@ -51,7 +51,7 @@ local raids = {
 		{
 			name = 'Ferumbras',
 			already_executed = false,
-			raid_hour = 22,
+			raid_hour = '22',
 			chance = 3,
 		},
 	},
@@ -59,13 +59,13 @@ local raids = {
 		{
 			name = 'Verminor',
 			already_executed = false,
-			raid_hour = 22,
+			raid_hour = '22',
 			chance = 4,
 		},
 		{
 			name = 'Ghazbaran',
 			already_executed = false,
-			raid_hour = 22,
+			raid_hour = '22',
 			chance = 5,
 		},
 	},
@@ -73,7 +73,7 @@ local raids = {
 		{
 			name = 'Infernatil',
 			already_executed = false,
-			raid_hour = 22,
+			raid_hour = '22',
 			chance = 4,
 		},
 	},
@@ -81,7 +81,7 @@ local raids = {
 		{
 			name = 'Zoralurk',
 			already_executed = false,
-			raid_hour = 22,
+			raid_hour = '22',
 			chance = 5,
 		},
 	},
