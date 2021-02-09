@@ -5493,7 +5493,7 @@ if not Quests then
 				},
 				[2] = {
 					name = "Mission 02: Tattered Swan Feathers",
-					storageId = Storage.ThreatenedDreams.TroubledMission01,
+					storageId = Storage.ThreatenedDreams.TroubledMission02,
 					missionId = 10400,
 					startValue = 1,
 					endValue = 5,

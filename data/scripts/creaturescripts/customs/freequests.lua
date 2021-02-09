@@ -296,7 +296,7 @@ local questTable = {
 [320] = {storageId = Storage.Quest.Dawnport.GoMain, storageValue = 1},
 [321] = {storageId = Storage.ThreatenedDreams.Start, storageValue = 1},
 [322] = {storageId = Storage.ThreatenedDreams.TroubledMission01, storageValue = 17},
-[323] = {storageId = Storage.ThreatenedDreams.TroubledMission01, storageValue = 5},
+[323] = {storageId = Storage.ThreatenedDreams.TroubledMission02, storageValue = 5},
 }
 
 local upperLimit = 1 -- change upperLimit to a higher one after adding a new quest to questTable
