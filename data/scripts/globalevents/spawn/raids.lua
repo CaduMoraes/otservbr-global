@@ -1,20 +1,20 @@
 local raids = {
-	['Monday'] = { 						-- Day of the week
-		{
-			name = 'Morgaroth', 		-- Name of the raid (according to raids.xml)
-			already_executed = false, 	-- Boolean that indicates if the raid already happened. To prevent duplicate raids
-			raid_hour = '22', 			-- The hour when the raid will spawn
-			chance = 0,					-- Percentage of chance for the raid to happen
-		},
-	},
-	['Tuesday'] = {
-		{
-			name = 'Apocalypse',
-			already_executed = false,
-			raid_hour = '22',
-			chance = 0,
-		},
-	},
+--	['Monday'] = { 						-- Day of the week
+--		{
+--			name = 'Morgaroth', 		-- Name of the raid (according to raids.xml)
+--			already_executed = false, 	-- Boolean that indicates if the raid already happened. To prevent duplicate raids
+--			raid_hour = '22', 			-- The hour when the raid will spawn
+--			chance = 0,					-- Percentage of chance for the raid to happen
+--		},
+--	},
+--	['Tuesday'] = {
+--		{
+--			name = 'Apocalypse',
+--			already_executed = false,
+--			raid_hour = '22',
+--			chance = 0,
+--		},
+--	},
 	['Wednesday'] = {
 		{
 			name = 'Jaul',
@@ -34,57 +34,57 @@ local raids = {
 			raid_hour = '19',
 			chance = 100,
 		},
-		{
-			name = 'Orhsabaal',
-			already_executed = false,
-			raid_hour = '22',
-			chance = 0,
-		},
-		{
-			name = 'King Zelos',
-			already_executed = false,
-			raid_hour = '22',
-			chance = 0,
-		},
+--		{
+--			name = 'Orhsabaal',
+--			already_executed = false,
+--			raid_hour = '22',
+--			chance = 0,
+--		},
+--		{
+--			name = 'King Zelos',
+--			already_executed = false,
+--			raid_hour = '22',
+--			chance = 0,
+--		},
 	},
-	['Thursday'] = {
-		{
-			name = 'Ferumbras',
-			already_executed = false,
-			raid_hour = '22',
-			chance = 0,
-		},
-	},
-	['Friday'] = {
-		{
-			name = 'Verminor',
-			already_executed = false,
-			raid_hour = '22',
-			chance = 0,
-		},
-		{
-			name = 'Ghazbaran',
-			already_executed = false,
-			raid_hour = '22',
-			chance = 0,
-		},
-	},
-	['Saturday'] = {
-		{
-			name = 'Infernatil',
-			already_executed = false,
-			raid_hour = '22',
-			chance = 0,
-		},
-	},
-	['Sunday'] = {
-		{
-			name = 'Zoralurk',
-			already_executed = false,
-			raid_hour = '22',
-			chance = 0,
-		},
-	},
+--	['Thursday'] = {
+--		{
+--			name = 'Ferumbras',
+--			already_executed = false,
+--			raid_hour = '22',
+--			chance = 0,
+--		},
+--	},
+--	['Friday'] = {
+--		{
+--			name = 'Verminor',
+--			already_executed = false,
+--			raid_hour = '22',
+--			chance = 0,
+--		},
+--		{
+--			name = 'Ghazbaran',
+--			already_executed = false,
+--			raid_hour = '22',
+--			chance = 0,
+--		},
+--	},
+--	['Saturday'] = {
+--		{
+--			name = 'Infernatil',
+--			already_executed = false,
+--			raid_hour = '22',
+--			chance = 0,
+--		},
+--	},
+--	['Sunday'] = {
+--		{
+--			name = 'Zoralurk',
+--			already_executed = false,
+--			raid_hour = '22',
+--			chance = 0,
+--		},
+--	},
 };
 
 -- This function checks the raids table (yes, table, because in Lua associative arrays are called tables)
@@ -100,6 +100,7 @@ function spawnRaids.onThink(interval, lastExecution, thinkInterval)
 	if raids[day] then
 		for i = 1, #raids[day] do
 			if not raids[day][i].already_executed and minutesSinceLastRaid >= 5 and raids[day][i].raid_hour <= hour then
+				math.randomseed(os.time());
 				local randomNumber = math.random(100);
 				print(randomNumber);								-- This a test to see if the same number will be generated over and over.
 				if raids[day][i].chance >= randomNumber then
