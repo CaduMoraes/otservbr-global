@@ -4,7 +4,7 @@ local raids = {
 			name = 'Morgaroth', 		-- Name of the raid (according to raids.xml)
 			already_executed = false, 	-- Boolean that indicates if the raid already happened. To prevent duplicate raids
 			raid_hour = '22', 			-- The hour when the raid will spawn
-			chance = 7,					-- Percentage of chance for the raid to happen
+			chance = 0,					-- Percentage of chance for the raid to happen
 		},
 	},
 	['Tuesday'] = {
@@ -12,7 +12,7 @@ local raids = {
 			name = 'Apocalypse',
 			already_executed = false,
 			raid_hour = '22',
-			chance = 6,
+			chance = 0,
 		},
 	},
 	['Wednesday'] = {
@@ -38,13 +38,13 @@ local raids = {
 			name = 'Orhsabaal',
 			already_executed = false,
 			raid_hour = '22',
-			chance = 8,
+			chance = 0,
 		},
 		{
 			name = 'King Zelos',
 			already_executed = false,
 			raid_hour = '22',
-			chance = 4,
+			chance = 0,
 		},
 	},
 	['Thursday'] = {
@@ -52,7 +52,7 @@ local raids = {
 			name = 'Ferumbras',
 			already_executed = false,
 			raid_hour = '22',
-			chance = 3,
+			chance = 0,
 		},
 	},
 	['Friday'] = {
@@ -60,13 +60,13 @@ local raids = {
 			name = 'Verminor',
 			already_executed = false,
 			raid_hour = '22',
-			chance = 4,
+			chance = 0,
 		},
 		{
 			name = 'Ghazbaran',
 			already_executed = false,
 			raid_hour = '22',
-			chance = 5,
+			chance = 0,
 		},
 	},
 	['Saturday'] = {
@@ -74,7 +74,7 @@ local raids = {
 			name = 'Infernatil',
 			already_executed = false,
 			raid_hour = '22',
-			chance = 4,
+			chance = 0,
 		},
 	},
 	['Sunday'] = {
@@ -82,7 +82,7 @@ local raids = {
 			name = 'Zoralurk',
 			already_executed = false,
 			raid_hour = '22',
-			chance = 5,
+			chance = 0,
 		},
 	},
 };
