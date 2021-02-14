@@ -131,6 +131,27 @@
 			viking helmet, 2473, 66;
 			viking shield, 2531, 85;
 			war hammer, 2391, 470;
-			wooden shield, 2512, 5;"/>
+			wooden shield, 2512, 5;
+			cobra axe, 35231, 250000;
+			cobra boots, 35229, 500000;
+			cobra club, 35230, 200000;
+			cobra crossbow, 35228, 350000;
+			cobra hood, 35232, 250000;
+			cobra rod, 35235, 200000;
+			cobra sword, 35233, 250000;
+			cobra wand, 35234, 200000;
+			the cobra amulet, 36466, 300000;
+			falcon circlet, 32414, 500000;
+			falcon plate, 32419, 500000;
+			falcon graves, 32420, 500000;
+			falcon coif, 32415, 500000;
+			falcon rod, 32416, 500000;
+			falcon wand, 32417, 500000;
+			falcon longsword, 32423, 500000;
+			falcon mace, 32425, 500000;
+			falcon battleaxe, 32424, 500000;
+			falcon bow, 32418, 500000;
+			falcon shield, 32421, 500000;
+			falcon escutcheon, 32422, 1500000 "/>
 	</parameters>
 </npc>
