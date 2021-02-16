@@ -59,10 +59,6 @@ monster.light = {
 	color = 0
 }
 
-monster.summons = {
-	{name = "time waster", chance = 3, interval = 2000, max = 8}
-}
-
 monster.voices = {
 	interval = 5000,
 	chance = 10,
