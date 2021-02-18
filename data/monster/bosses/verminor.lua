@@ -125,7 +125,31 @@ monster.loot = {
 	{id = 2185, chance = 3500},
 	{id = 3955, chance = 100},
 	{id = 2188, chance = 2500},
-	{id = 2143, chance = 12500, maxCount = 15}
+	{id = 2143, chance = 12500, maxCount = 15},
+	{id = 38944, chance = 400},
+	{name = "soulful legs", chance = 1000},
+	{name = "fabulous legs", chance = 1000},
+	{name = "ghost chestplate", chance = 1000},
+	{name = "resizer", chance = 1000},
+	{id = 36416, chance = 1000},
+	{name = "galea mortis", chance = 1000},
+	{name = "shadow cowl", chance = 1000},
+	{name = "toga mortis", chance = 1000},
+	{name = "summerblade", chance = 1500},
+	{name = "crystalline axe", chance = 1500},
+	{name = "phantasmal axe", chance = 1500},
+	{name = "hammer of prophecy", chance = 1500},
+	{name = "mycological mace", chance = 1500},
+	{name = "ectoplasmic shield", chance = 1500},
+	{name = "energized limb", chance = 1500},
+	{name = "brain in a jar", chance = 1500},
+	{id = 34980, chance = 1500},
+	{name = "book backpack", chance = 1500},
+	{id = 13032, chance = 800},
+	{id = 37454, chance = 800},
+	{id = 13293, chance = 800},
+	{id = 13291, chance = 800},
+	{id = 13294, chance = 800}
 }
 
 monster.attacks = {
