@@ -59,6 +59,11 @@ monster.light = {
 	color = 0
 }
 
+monster.summons = {
+	{name = "demon", chance = 10, interval = 3000, max = 4}
+}
+
+
 monster.voices = {
 	interval = 5000,
 	chance = 10,
